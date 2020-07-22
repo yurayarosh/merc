@@ -1,0 +1,185 @@
+.button
+  background-color: transparent
+  border-width: 0
+  &--black
+    border-top-width: 1px 
+
+.tabs
+  display: flex
+  flex-wrap: wrap
+
+  &__tabs
+    width: 100%
+    margin-bottom: 30px
+
+  &__types
+    width: 25%
+
+    +r(1199)
+      width: 100%
+
+  &__content
+    width: 75%
+    padding: 0 !important
+    margin-left: 0 !important
+    margin-right: 0 !important
+
+    +r(1199)
+      width: 100%
+
+  &__aux-button
+    width: 100%
+
+  &__tab
+    @extend .title
+    @extend .title--smaller
+
+    background-color: transparent
+    border: 0
+    cursor: pointer
+    position: relative
+
+    padding-right: 20px
+    padding-left: 20px
+
+    color: inherit !important
+    
+    &:not(:last-child)
+      &::after
+        content: ''
+        position: absolute
+        background-color: #000
+        height: 25px
+        right: -3px
+        width: 1px
+        bottom: 0
+    
+    &:first-child
+      padding-left: 0
+
+    &:hover
+      color: $accent !important
+
+    &--current
+      color: $accent !important
+
+.catalog
+  &__box
+    width: percentage(1/3) !important
+    +r(767)
+      width: 272px !important
+      .static-image
+        visibility: hidden
+        opacity: 0
+      .flexslider
+        visibility: visible !important
+        opacity: 1 !important
+
+    &:hover
+      .static-image
+        visibility: hidden
+        opacity: 0
+      .flexslider
+        visibility: visible
+        opacity: 1
+
+    .static-image
+      position: absolute
+      z-index: 1
+      left: 0
+      top: 50px
+      width: 100%
+      text-align: center
+
+      transition: opacity .4s, visibility .4s
+      img
+        max-width: 100%
+
+    .flexslider
+      display: block
+      visibility: hidden
+      opacity: 0
+      transition: opacity .4s, visibility .4s
+
+      .flex-direction-nav
+        display: none !important
+
+      .flex-control-paging
+        bottom: 0
+        li
+          a
+            width: 5px
+            height: 5px
+            border-radius: 50%
+            background-color: #ccc
+            &.flex-active
+              background-color: $accent
+      
+      .slides
+        li
+          position: relative
+          padding-top: 110px
+
+          picture,
+          img
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+
+            width: 100%
+            height: 100%
+            object-fit: contain
+
+    &--first-of-type
+      &:hover
+        &::after,
+        &::before
+          display: none
+      &::before,
+      &::after
+        +r(767)
+          display: none !important
+
+      &::before
+        content: ''
+        position: absolute
+        bottom: 118px
+        left: -1px
+
+        border-left: 1px solid #999
+        height: calc(100% - 148px)
+        
+      &::after
+        content: attr(data-type)
+        font-size: 15px
+
+        display: block
+
+        position: absolute
+        top: 30px
+        left: 20px
+
+.type-button
+  $this: &
+
+  input
+    position: absolute
+    opacity: 0
+    width: 0
+    height: 0
+
+    &:checked + #{$this}__label
+      color: $accent
+
+  &__label
+    display: flex
+    align-items: center
+  
+  &__icon-wrap
+    display: flex
+    align-items: center
+    justify-content: center
+
+    width: 120px
+    margin-right: .5em

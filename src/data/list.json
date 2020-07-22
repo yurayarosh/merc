@@ -1,0 +1,326 @@
+[
+  {
+    "group": "amg",
+    "type": "sedan",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class седаны",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class Седани",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "electro",
+    "type": "sedan",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class седаны",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class Седани",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "cabriolet",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class cabriolet",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class cabriolet",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "electro",
+    "type": "sedan",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class седаны",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class Седани",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "electro",
+    "type": "cabriolet",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class cabriolet",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class cabriolet",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "electro",
+    "type": "sedan",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class седаны",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class Седани",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "sedan",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class седаны",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class Седани",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "cabriolet",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class cabriolet",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class cabriolet",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "t-model",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class t-model",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class t-model",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "t-model",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class t-model",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class t-model",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "electro",
+    "type": "t-model",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class t-model",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class t-model",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "t-model",
+    "title": "C-Class Limousine",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Limousine"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class t-model",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class t-model",
+        "price": "від 824 946 ₴"
+      }
+    }
+  }
+]
