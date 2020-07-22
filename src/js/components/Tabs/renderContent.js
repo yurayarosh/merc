@@ -1,23 +1,28 @@
 import { CARDS_TO_SHOW, TRANSITION_DURATION } from './constants'
 import Card from './htmlComponents/Card'
 import Button from './htmlComponents/Button'
-import { auxButtons, LANGUAGE } from './translations'
+import { auxButtons, LANGUAGE, types } from './translations'
 
-export default function renderContent(state = { sliceList: true }) {
+export default function renderContent(state = { sliceList: false }) {
   return new Promise(resolve => {
     const stringifyList = list =>
       list.length > 0
         ? list
-            .map(({ isFirstOfType, title, url, info, image, type }) =>
-              Card({
+            .map(({ isFirstOfType, title, url, info, image, type }) => {
+              return `
+              ${
+                isFirstOfType ? `<div class="tabs__group-title">${types[type][LANGUAGE]}</div>` : ''
+              }
+              ${Card({
                 isFirstOfType,
                 title,
                 url,
                 info,
                 image,
                 type,
-              })
-            )
+              })}
+              `
+            })
             .join('')
         : []
 
@@ -35,12 +40,12 @@ export default function renderContent(state = { sliceList: true }) {
 
       inner = shouldSliceList ? postsListWithShowButton : postsList
     } else {
-      inner =
-        stringifyList(this.listData) +
-        Button({
-          mod: 'checked js-hide',
-          title: auxButtons.hide[LANGUAGE],
-        })
+      inner = stringifyList(this.listData)
+      // +
+      // Button({
+      //   mod: 'checked js-hide',
+      //   title: auxButtons.hide[LANGUAGE],
+      // })
     }
 
     this.content.style.opacity = 0
@@ -52,6 +57,8 @@ export default function renderContent(state = { sliceList: true }) {
       this.initSliders()
 
       this.pushUrl()
+
+      this.typesTitles = [...document.querySelectorAll('.tabs__group-title')]
 
       resolve()
     }, TRANSITION_DURATION)

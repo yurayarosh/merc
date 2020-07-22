@@ -35,10 +35,7 @@ export default ({ isFirstOfType, title, url, image, info, type }) => {
   `
 
   return ` 
-  <div
-    class="catalog__box${isFirstOfType ? ' catalog__box--first-of-type' : ''}"
-    ${isFirstOfType ? `data-type="${types[type][LANGUAGE]}"` : ''}
-  >
+  <div class="catalog__box">
     <div class="title">
       <div class="title--two">${title}</div>
     </div>

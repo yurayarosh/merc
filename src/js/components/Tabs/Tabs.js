@@ -1,37 +1,10 @@
-// let infoList = models.map(card => {
-//   return {
-//       "group": card.querySelector('.info--name') ? card.querySelector('.info--name').innerText.includes('AMG') ? card.querySelector('.info--name').innerText : '' : '',
-//       "type": "sedan",
-//       "title": {
-//         "card": card.querySelector('.title--two').innerText,
-//       },
-//       "url": {
-//         "main": card.querySelector('.image').getAttribute('href'),
-//         "auxiliary": card.querySelectorAll('.valign').length >= 2 ? card.querySelectorAll('.valign')[1].getAttribute('href') : '',
-//       },
-//       "img": {
-//         "name": card.querySelector('img').getAttribute('src').split('/').filter(str => str.includes('.png')),
-//         "alt": card.querySelector('img').getAttribute('alt'),
-//       },
-//       "info": {
-//         "ru": {
-//           "note": "Розничная цена",
-//           "name": "C-Class седаны",
-//           "price": "от 824 946 ₴",
-//         },
-//         "uk": {
-//           "note": card.querySelector('.info--note') ? card.querySelector('.info--note').innerText : '',
-//           "name": card.querySelector('.info--naem') ? card.querySelector('.info--name').innerText : '',
-//           "price": card.querySelector('.info--price') ? card.querySelector('.info--price').innerText : '',
-//         }
-//       }
-//   }
-// })
+import { throttle } from 'throttle-debounce'
 
 import toggleTabsState from './toggleTabsState'
 import filterList from './filterList'
 import pushUrl from './pushUrl'
-import initSliders from '../initSliders'
+import initSliders from './initSliders'
+import toggleTypesTitles from './toggleTypesTitles'
 
 import handleLoading from './handleLoading'
 import handleTabButtonClick from './handleTabsButtonClick'
@@ -39,6 +12,7 @@ import handleShowMoreButtonClick from './handleShowMoreButtonClick'
 import handleClick from './handleClick'
 import handleHideButtonClick from './handleHideButtonClick'
 import handleChange from './handleChange'
+import handleScroll from './handleScroll'
 
 import renderWrappers from './renderWrappers'
 import renderContent from './renderContent'
@@ -57,12 +31,14 @@ export default class Tabs {
     this.filterList = filterList.bind(this)
     this.pushUrl = pushUrl.bind(this)
     this.initSliders = initSliders.bind(this)
+    this.toggleTypesTitles = toggleTypesTitles.bind(this)
 
     this.handleTabButtonClick = handleTabButtonClick.bind(this)
     this.handleShowMoreButtonClick = handleShowMoreButtonClick.bind(this)
     this.handleHideButtonClick = handleHideButtonClick.bind(this)
     this.handleClick = handleClick.bind(this)
     this.handleChange = handleChange.bind(this)
+    this.handleScroll = handleScroll.bind(this)
 
     this.renderWrappers = renderWrappers.bind(this)
     this.renderContent = renderContent.bind(this)
@@ -163,9 +139,11 @@ export default class Tabs {
   _addListeners() {
     this.onClick = this.handleClick.bind(this)
     this.onChange = this.handleChange.bind(this)
+    this.onScroll = throttle(66, this.handleScroll.bind(this))
 
     document.addEventListener('click', this.onClick)
     document.addEventListener('change', this.onChange)
+    window.addEventListener('scroll', this.onScroll)
   }
 
   async init() {

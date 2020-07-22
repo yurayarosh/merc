@@ -31,6 +31,7 @@ export default async function handleLoading() {
     }
   } else {
     this.renderTypeButtons()
+    this.filterList()
   }
 
   await this.renderContent()
