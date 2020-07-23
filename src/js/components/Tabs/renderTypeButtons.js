@@ -1,9 +1,10 @@
 import TypeButton from './htmlComponents/TypeButton'
 import { types, LANGUAGE } from './translations'
+import { TRANSITION_DURATION } from './constants'
 
 export default function renderTypeButtons() {
   const typesNames =
-    this.listData.length > 0 ? [...new Set(this.listData.map(({ type }) => type))] : []
+    this.listData.length > 0 ? [...new Set([...this.listData].map(({ type }) => type))] : []
 
   const stringifyList = list =>
     list
@@ -57,9 +58,21 @@ export default function renderTypeButtons() {
       })
       .join('')
 
-  this.typesWrapper.innerHTML = `
+  const appendInner = (props = {}) => {
+    const { animate = false } = props
+
+    this.typesWrapper.innerHTML = `
       <ul class="type-buttons-list">
         ${stringifyList(typesNames)}
       </ul>
-  `
+    `
+    if (animate) this.typesWrapper.style.opacity = 1
+  }
+
+  if (TRANSITION_DURATION > 0) {
+    this.typesWrapper.style.opacity = 0
+    setTimeout(appendInner.bind({ animate: true }), TRANSITION_DURATION)
+  } else {
+    appendInner()
+  }
 }

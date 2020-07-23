@@ -1,16 +1,10 @@
 import regeneratorRuntime from 'regenerator-runtime'
-import classNames from './classNames'
 import { isModernBrowser } from './helpers'
 
 import loadPolyfills from './polyfills/loadPolyfills'
 import setTabs from './components/Tabs'
 
 class App {
-  constructor() {
-    this.methods = {}
-    this.classNames = classNames
-  }
-
   initMethods() {
     this.methods = {
       setTabs,
@@ -26,6 +20,7 @@ class App {
 
 const init = () => {
   const app = new App()
+
   app.init()
   window.app = app
 

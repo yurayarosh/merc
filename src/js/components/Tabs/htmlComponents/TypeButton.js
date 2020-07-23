@@ -1,8 +1,10 @@
+import classNames from '../../../classNames'
+
 export default ({ title, icon, type, checked }) => {
   return `
-    <label class="type-button">
+    <label class="type-button box">
       <input
-        class="js-tabs-type-button"
+        class="${classNames.tabs.typeBtn}"
         type="checkbox"
         value="${type}"
         ${checked ? 'checked' : ''}

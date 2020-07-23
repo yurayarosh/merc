@@ -1,18 +1,22 @@
-import { throttle } from 'throttle-debounce'
+import { throttle, debounce } from 'throttle-debounce'
 
 import toggleTabsState from './toggleTabsState'
 import filterList from './filterList'
 import pushUrl from './pushUrl'
 import initSliders from './initSliders'
 import toggleTypesTitles from './toggleTypesTitles'
+import setCSSVariables from './setCSSVariables'
+import toggleControlsStickyWidth from './toggleControlsStickyWidth'
 
 import handleLoading from './handleLoading'
 import handleTabButtonClick from './handleTabsButtonClick'
 import handleShowMoreButtonClick from './handleShowMoreButtonClick'
 import handleClick from './handleClick'
 import handleHideButtonClick from './handleHideButtonClick'
+import handleSelectOpenerClick from './handleSelectOpenerClick'
 import handleChange from './handleChange'
 import handleScroll from './handleScroll'
+import handleResize from './handleResize'
 
 import renderWrappers from './renderWrappers'
 import renderContent from './renderContent'
@@ -20,38 +24,45 @@ import renderTypeButtons from './renderTypeButtons'
 import renderTabsButtons from './renderTabsButtons'
 
 import { QUERY_GROUP, TRANSITION_DURATION, FETCHED_LIST_URL, QUERY_TYPE } from './constants'
+import classes from '../../classNames'
+
+const { tabs: classNames } = classes
 
 export default class Tabs {
   constructor(wrap) {
     this.wrap = wrap
     this.isLoaded = false
 
-    this.handleLoading = handleLoading.bind(this)
-    this.toggleTabsState = toggleTabsState.bind(this)
-    this.filterList = filterList.bind(this)
-    this.pushUrl = pushUrl.bind(this)
-    this.initSliders = initSliders.bind(this)
-    this.toggleTypesTitles = toggleTypesTitles.bind(this)
+    this.handleLoading = handleLoading
+    this.toggleTabsState = toggleTabsState
+    this.filterList = filterList
+    this.pushUrl = pushUrl
+    this.initSliders = initSliders
+    this.toggleTypesTitles = toggleTypesTitles
+    this.setCSSVariables = setCSSVariables
+    this.toggleControlsStickyWidth = toggleControlsStickyWidth
 
-    this.handleTabButtonClick = handleTabButtonClick.bind(this)
-    this.handleShowMoreButtonClick = handleShowMoreButtonClick.bind(this)
-    this.handleHideButtonClick = handleHideButtonClick.bind(this)
-    this.handleClick = handleClick.bind(this)
-    this.handleChange = handleChange.bind(this)
-    this.handleScroll = handleScroll.bind(this)
+    this.handleTabButtonClick = handleTabButtonClick
+    this.handleShowMoreButtonClick = handleShowMoreButtonClick
+    this.handleHideButtonClick = handleHideButtonClick
+    this.handleSelectOpenerClick = handleSelectOpenerClick
+    this.handleClick = handleClick
+    this.handleChange = handleChange
+    this.handleScroll = handleScroll
+    this.handleResize = handleResize
 
-    this.renderWrappers = renderWrappers.bind(this)
-    this.renderContent = renderContent.bind(this)
-    this.renderTypeButtons = renderTypeButtons.bind(this)
-    this.renderTabsButtons = renderTabsButtons.bind(this)
+    this.renderWrappers = renderWrappers
+    this.renderContent = renderContent
+    this.renderTypeButtons = renderTypeButtons
+    this.renderTabsButtons = renderTabsButtons
   }
 
   get buttons() {
-    return [...this.wrap.querySelectorAll('.js-tabs-tab')]
+    return [...this.wrap.querySelectorAll(`.${classNames.tab}`)]
   }
 
   get typeButtons() {
-    return [...this.wrap.querySelectorAll('.js-tabs-type-button')]
+    return [...this.wrap.querySelectorAll(`.${classNames.typeBtn}`)]
   }
 
   get currentTypeButton() {
@@ -91,10 +102,9 @@ export default class Tabs {
       return href.slice(sliceStartPoint, sliceEndPoint)
     }
 
-    const name =
-      !this.isLoaded && href.indexOf(QUERY_GROUP) !== -1 ? getNameFromUrl() : getNameFromButton()
-
-    return name
+    return !this.isLoaded && href.indexOf(QUERY_GROUP) !== -1
+      ? getNameFromUrl()
+      : getNameFromButton()
   }
 
   get currentTypeName() {
@@ -112,10 +122,9 @@ export default class Tabs {
       return href.slice(sliceStartPoint)
     }
 
-    const name =
-      !this.isLoaded && href.indexOf(QUERY_TYPE) !== -1 ? getNameFromUrl() : getNameFromButton()
-
-    return name
+    return !this.isLoaded && href.indexOf(QUERY_TYPE) !== -1
+      ? getNameFromUrl()
+      : getNameFromButton()
   }
 
   async _getListData() {
@@ -130,8 +139,13 @@ export default class Tabs {
     this.renderWrappers()
     this.renderTabsButtons()
 
-    this.content.style.transition = `opacity ${TRANSITION_DURATION}ms`
+    if (TRANSITION_DURATION > 0) this.content.style.transition = `opacity ${TRANSITION_DURATION}ms`
+    if (TRANSITION_DURATION > 0)
+      this.typesWrapper.style.transition = `opacity ${TRANSITION_DURATION}ms`
+
     await this.handleLoading()
+
+    this.setCSSVariables()
 
     this.isLoaded = true
   }
@@ -140,10 +154,12 @@ export default class Tabs {
     this.onClick = this.handleClick.bind(this)
     this.onChange = this.handleChange.bind(this)
     this.onScroll = throttle(66, this.handleScroll.bind(this))
+    this.onResize = debounce(300, this.handleResize)
 
     document.addEventListener('click', this.onClick)
     document.addEventListener('change', this.onChange)
     window.addEventListener('scroll', this.onScroll)
+    window.addEventListener('resize', this.onResize)
   }
 
   async init() {

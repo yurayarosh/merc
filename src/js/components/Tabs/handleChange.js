@@ -1,5 +1,7 @@
+import classNames from '../../classNames'
+
 export default function handleChange({ target }) {
-  const typeBtn = target.closest('.js-tabs-type-button')
+  const typeBtn = target.closest(`.${classNames.tabs.typeBtn}`)
 
   if (typeBtn) {
     const elseCheckboxes = this.typeButtons.filter(input => input !== typeBtn)

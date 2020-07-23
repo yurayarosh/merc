@@ -1,7 +1,8 @@
 export default {
-  lazy: 'js-lazy',
-  menu: {
-    burger: 'js-burger',
-    menu: 'js-menu',
+  tabs: {
+    wrap: 'js-tabs',
+    select: 'js-tabs-select',
+    tab: 'js-tabs-tab',
+    typeBtn: 'js-tabs-type-button',
   },
 }

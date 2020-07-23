@@ -2,7 +2,8 @@
   {
     "group": "amg",
     "type": "sedan",
-    "title": "C-Class Limousine",
+    "title": "C-Class Sedan",
+    "isRecommended": true,
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": ""
@@ -11,7 +12,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class Sedan"
     },
     "info": {
       "ru": {
@@ -29,7 +30,7 @@
   {
     "group": "electro",
     "type": "sedan",
-    "title": "C-Class Limousine",
+    "title": "C-Class Sedan",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -38,7 +39,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class Sedan"
     },
     "info": {
       "ru": {
@@ -56,7 +57,8 @@
   {
     "group": "amg",
     "type": "cabriolet",
-    "title": "C-Class Limousine",
+    "title": "C-Class Cabriolet",
+    "isRecommended": true,
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -65,7 +67,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class Cabriolet"
     },
     "info": {
       "ru": {
@@ -83,7 +85,7 @@
   {
     "group": "electro",
     "type": "sedan",
-    "title": "C-Class Limousine",
+    "title": "C-Class Sedan",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -92,7 +94,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class Sedan"
     },
     "info": {
       "ru": {
@@ -110,7 +112,7 @@
   {
     "group": "electro",
     "type": "cabriolet",
-    "title": "C-Class Limousine",
+    "title": "C-Class Cabriolet",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -119,7 +121,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class Cabriolet"
     },
     "info": {
       "ru": {
@@ -137,7 +139,7 @@
   {
     "group": "electro",
     "type": "sedan",
-    "title": "C-Class Limousine",
+    "title": "C-Class Sedan",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -146,7 +148,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class Sedan"
     },
     "info": {
       "ru": {
@@ -164,7 +166,7 @@
   {
     "group": "amg",
     "type": "sedan",
-    "title": "C-Class Limousine",
+    "title": "C-Class Sedan",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -173,7 +175,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class Sedan"
     },
     "info": {
       "ru": {
@@ -191,7 +193,7 @@
   {
     "group": "amg",
     "type": "cabriolet",
-    "title": "C-Class Limousine",
+    "title": "C-Class Cabriolet",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -200,7 +202,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class Cabriolet"
     },
     "info": {
       "ru": {
@@ -218,7 +220,7 @@
   {
     "group": "amg",
     "type": "t-model",
-    "title": "C-Class Limousine",
+    "title": "C-Class T-Model",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -227,7 +229,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class T-Model"
     },
     "info": {
       "ru": {
@@ -245,7 +247,7 @@
   {
     "group": "amg",
     "type": "t-model",
-    "title": "C-Class Limousine",
+    "title": "C-Class T-Model",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -254,7 +256,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class T-Model"
     },
     "info": {
       "ru": {
@@ -272,7 +274,7 @@
   {
     "group": "electro",
     "type": "t-model",
-    "title": "C-Class Limousine",
+    "title": "C-Class T-Model",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -281,7 +283,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class T-Model"
     },
     "info": {
       "ru": {
@@ -299,7 +301,7 @@
   {
     "group": "amg",
     "type": "t-model",
-    "title": "C-Class Limousine",
+    "title": "C-Class T-Model",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -308,7 +310,7 @@
       "front": "limousine-1",
       "side": "glb-class",
       "back": "gle-coupe",
-      "alt": "C-Class Limousine"
+      "alt": "C-Class T-Model"
     },
     "info": {
       "ru": {
@@ -319,6 +321,141 @@
       "uk": {
         "note": "Роздрібна ціна",
         "name": "C-Class t-model",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "suv",
+    "title": "C-Class Suv",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Suv"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class suv",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class suv",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "coupe",
+    "title": "C-Class Coupe",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Coupe"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class coupe",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class coupe",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "roadster",
+    "title": "C-Class Roadster",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Roadster"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class roadster",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class roadster",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "shooting-brake",
+    "title": "C-Class Shooting-brake",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Shooting-brake"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class shooting-brake",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class shooting-brake",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "minivan",
+    "title": "C-Class Minivan",
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Minivan"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class minivan",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class minivan",
         "price": "від 824 946 ₴"
       }
     }

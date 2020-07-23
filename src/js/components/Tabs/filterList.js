@@ -1,23 +1,26 @@
 export default function filterList(props = {}) {
   const { group = 'all', type } = props
 
-  const getSortedList = originList => {
-    const sortedList = []
+  const setFirstOfType = (item, i) => (i === 0 ? { ...item, isFirstOfType: true } : item)
 
-    const typesNames = originList.length > 0 ? [...new Set(originList.map(({ type: t }) => t))] : []
+  const getSortedList = originList => {
+    const typesNames =
+      originList.length > 0 ? [...new Set([...originList].map(({ type: t }) => t))] : []
     const sortedByType = []
 
     typesNames.forEach(typeName => {
-      const sublist = originList
-        .filter(({ type: t }) => t === typeName)
-        .map((item, i) => (i === 0 ? { ...item, isFirstOfType: true } : item))
+      const sublist = [...originList]
+        .filter(({ isRecommended, type: t }) => t === typeName && !isRecommended)
+        .map(setFirstOfType)
 
       sortedByType.push(...sublist)
     })
 
-    sortedList.push(...sortedByType)
+    const recommendedItems = [...originList]
+      .filter(({ isRecommended }) => isRecommended)
+      .map(setFirstOfType)
 
-    return sortedList
+    return [...recommendedItems, ...sortedByType]
   }
 
   if (group === 'all') {

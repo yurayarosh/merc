@@ -16,6 +16,10 @@ export const groupsNames = {
 }
 
 export const types = {
+  recommended: {
+    uk: 'Наші рекомендації',
+    ru: 'Наши рекомендации',
+  },
   sedan: {
     uk: 'Седани',
     ru: 'Седаны',

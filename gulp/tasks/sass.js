@@ -4,6 +4,7 @@ import sourcemaps from 'gulp-sourcemaps'
 import postcss from 'gulp-postcss'
 import autoprefixer from 'autoprefixer'
 import csso from 'postcss-csso'
+import base64 from 'gulp-base64'
 import { src, dest, production, errorHandler } from '../config'
 
 const processors = [
@@ -16,7 +17,7 @@ const processors = [
 gulp.task('sass', () =>
   gulp
     .src(`${src.styles}/*.{sass,scss}`)
-    .pipe(sourcemaps.init())
+    .pipe(sourcemaps.init())    
     .pipe(
       sass({
         outputStyle: production ? 'compact' : 'expanded', // nested, expanded, compact, compressed

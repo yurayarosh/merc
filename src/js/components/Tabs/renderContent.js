@@ -8,10 +8,14 @@ export default function renderContent(state = { sliceList: false }) {
     const stringifyList = list =>
       list.length > 0
         ? list
-            .map(({ isFirstOfType, title, url, info, image, type }) => {
+            .map(({ isFirstOfType, isRecommended, title, url, info, image, type }) => {
               return `
               ${
-                isFirstOfType ? `<div class="tabs__group-title">${types[type][LANGUAGE]}</div>` : ''
+                isFirstOfType
+                  ? `<div class="tabs__group-title">${
+                      isRecommended ? types.recommended[LANGUAGE] : types[type][LANGUAGE]
+                    }</div>`
+                  : ''
               }
               ${Card({
                 isFirstOfType,
@@ -30,15 +34,15 @@ export default function renderContent(state = { sliceList: false }) {
 
     if (state.sliceList) {
       const shouldSliceList = this.listData.length > CARDS_TO_SHOW
-      this.visiblePosts = shouldSliceList
+      this.visibleCards = shouldSliceList
         ? [...this.listData].slice(0, CARDS_TO_SHOW)
         : [...this.listData]
 
-      const postsList = stringifyList(this.visiblePosts)
+      const cardsList = stringifyList(this.visibleCards)
 
-      const postsListWithShowButton = postsList + Button({ title: auxButtons.show[LANGUAGE] })
+      const cardListWithShowButton = cardsList + Button({ title: auxButtons.show[LANGUAGE] })
 
-      inner = shouldSliceList ? postsListWithShowButton : postsList
+      inner = shouldSliceList ? cardListWithShowButton : cardsList
     } else {
       inner = stringifyList(this.listData)
       // +
@@ -48,11 +52,11 @@ export default function renderContent(state = { sliceList: false }) {
       // })
     }
 
-    this.content.style.opacity = 0
+    const appendInner = (props = {}) => {
+      const { animate = false } = props
 
-    setTimeout(() => {
       this.content.innerHTML = inner
-      this.content.style.opacity = 1
+      if (animate) this.content.style.opacity = 1
 
       this.initSliders()
 
@@ -61,6 +65,13 @@ export default function renderContent(state = { sliceList: false }) {
       this.typesTitles = [...document.querySelectorAll('.tabs__group-title')]
 
       resolve()
-    }, TRANSITION_DURATION)
+    }
+
+    if (TRANSITION_DURATION > 0) {
+      this.content.style.opacity = 0
+      setTimeout(appendInner.bind({ animate: true }), TRANSITION_DURATION)
+    } else {
+      appendInner()
+    }
   })
 }
