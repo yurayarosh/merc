@@ -1,0 +1,243 @@
+.tabs
+  $this: &
+
+  display: flex
+  flex-wrap: wrap
+  box-sizing: 
+  *
+    box-sizing: border-box
+
+  &__tabs,
+  &__tabs-type-title,
+  &__types
+    background-color: rgba(#fff, .9) 
+    &--fixed
+      position: fixed !important
+      width: auto !important
+      left: 0
+      right: 0
+      +lg
+        position: fixed !important
+
+  &__tabs
+    width: 100%
+    padding-bottom: 30px
+    padding-top: 30px
+
+    position: sticky
+    z-index: 15
+    top: 0
+
+    +lg
+      padding-bottom: 15px
+      padding-top: 0
+
+  &__tabs-type-title
+    position: sticky
+    z-index: 10
+    top: var(--tabs-buttons-wrapper-height)
+
+    width: 100%
+    padding-left: calc(var(--types-wrapper-width) + 40px)
+    padding-right: 40px    
+
+    color: $dark
+    font-size: 20px
+    span
+      display: block
+      padding-bottom: 20px
+      border-bottom: 1px solid $light 
+
+    +lg
+      padding-left: 0
+      top: calc(var(--tabs-buttons-wrapper-height) + var(--types-wrapper-height))
+      font-size: 16px
+      color: inherit
+      span
+        padding: 10px 16px       
+
+  &__types
+    width: 25%
+    border-right: 1px solid $light
+    
+    +lg
+      width: 100%
+      // position: sticky !important
+      z-index: 10
+      top: var(--tabs-buttons-wrapper-height)
+
+      border-right: 0
+      border-bottom: 1px solid $light
+
+    .type-buttons-list
+      position: sticky
+      z-index: 10
+      top: var(--tabs-buttons-wrapper-height)
+      +lg
+        position: static
+
+  &__content
+    @extend %row
+
+    width: 75%
+    padding-left: 20px
+    padding-right: 20px
+
+    +lg
+      width: 100%
+      padding-left: 0
+      padding-right: 0
+
+    .card
+      width: calc(#{percentage(1/3)} - 40px)
+      margin-left: 20px
+      margin-right: 20px
+      +lg
+        margin-bottom: 40px
+      +md
+        width: calc(#{percentage(1/2)} - 20px)
+        margin-left: 10px
+        margin-right: 10px
+        margin-bottom: 20px
+      
+      +xs
+        width: calc(100% - 10px)
+        margin-left: 5px
+        margin-right: 5px
+
+  &__aux-button
+    width: 100%
+
+  &__group-title
+    width: calc(100% - 40px)
+    font-size: 20px
+    padding-top: 16px
+    padding-bottom: 16px
+    margin-bottom: 10px
+    margin-left: auto
+    margin-right: auto
+
+    color: $dark
+
+    border-bottom: 1px solid $light
+
+    +lg
+      width: 100%
+      font-size: 16px
+      padding-bottom: 10px
+      padding-left: 16px
+      padding-right: 16px
+      color: inherit
+
+  &__tab
+    padding: 14px 20px
+    border: 0
+    text-align: center
+    background-color: transparent    
+    cursor: pointer
+    +tr(background-color .4s, color .4s)
+
+    +lg
+      display: block
+      width: 100%
+      text-align: left
+      background-color: transparent
+      padding-top: 18px
+      padding-bottom: 18px
+      position: relative
+
+      &::after
+        content: ''
+        +icon-arrow(1, .5, .1, currentColor, -45, em)
+        position: absolute
+        top: 50%
+        right: 16px
+        transform: translate(0, -50%) rotate(-45deg)
+
+        display: none
+
+    .icon-inline
+      font-size: em(8)
+
+    &:hover
+      &:not(#{$this}__tab--current)
+        background-color: $light
+
+    &--current
+      color: #fff
+      background-color: #000
+      +lg
+        background-color: transparent
+        color: $accent
+        &::after
+          display: block
+
+
+.tabs-select
+  $this: &
+
+  position: relative
+
+  &__opener
+    display: block
+    width: 100%
+    text-align: left
+    border: 0
+    cursor: pointer
+    
+    padding: 15px 16px
+    border-radius: 3px
+    background-color: #333
+    color: #fff
+    position: relative
+
+    .icon-inline
+      font-size: 8px
+
+    +lgmin
+      display: none
+      
+    +after
+      +icon-arrow(.7, .7, .1, currentColor, 45, em)
+      display: block
+
+      position: absolute
+      top: 50%
+      right: 1rem
+      margin-top: -.1em
+      transform: translate(0, -50%) rotate(-45deg)
+
+
+  &__panel
+    margin: 0
+    +lgmin
+      display: flex
+      align-items: center
+
+    +lg
+      position: fixed
+      z-index: 10
+      background-color: #fff
+      box-shadow: 0 1px 5px 0 rgba(0,0,0,.2)
+      top: 10px
+      left: 10px
+      right: 10px
+      border-radius: 3px
+
+      padding: 12px 24px !important
+
+      +hidden
+      +tr(opacity .4s, visibility .4s)
+
+    li
+      border: 1px solid #bfbfbf
+      +lg
+        border-width: 0
+      &:not(:last-child)
+        border-right: 0
+        +lg
+          border-bottom-width: 1px
+
+  &--open
+    #{$this}__panel
+      +visible

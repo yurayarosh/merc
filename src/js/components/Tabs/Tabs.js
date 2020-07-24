@@ -23,7 +23,13 @@ import renderContent from './renderContent'
 import renderTypeButtons from './renderTypeButtons'
 import renderTabsButtons from './renderTabsButtons'
 
-import { QUERY_GROUP, TRANSITION_DURATION, FETCHED_LIST_URL, QUERY_TYPE } from './constants'
+import {
+  QUERY_GROUP,
+  TRANSITION_DURATION,
+  FETCHED_LIST_URL,
+  FETCHED_TRANSLATIONS_URL,
+  QUERY_TYPE,
+} from './constants'
 import classes from '../../classNames'
 
 const { tabs: classNames } = classes
@@ -32,6 +38,7 @@ export default class Tabs {
   constructor(wrap) {
     this.wrap = wrap
     this.isLoaded = false
+    this.store = {}
 
     this.handleLoading = handleLoading
     this.toggleTabsState = toggleTabsState
@@ -127,12 +134,36 @@ export default class Tabs {
       : getNameFromButton()
   }
 
-  async _getListData() {
-    const listResponse = await fetch(FETCHED_LIST_URL)
-    const listData = await listResponse.json()
+  updateStore(state) {
+    this.store = { ...this.store, ...state }
+  }
 
-    this.originListData = listData && listData.length > 0 ? listData : []
-    this.listData = [...this.originListData]
+  async _fetchData() {
+    let listData
+    let translations
+
+    try {
+      const listResponse = await fetch(FETCHED_LIST_URL)
+      listData = await listResponse.json()
+    } catch (error) {
+      console.error('server error fetching data list', error)
+    }
+
+    try {
+      const translationsResponse = await fetch(FETCHED_TRANSLATIONS_URL)
+      translations = await translationsResponse.json()
+    } catch (error) {
+      console.error('server error fetching translations data', error)
+    }
+
+    const originList = listData && listData.length > 0 ? listData : []
+    const list = [...originList]
+
+    this.updateStore({
+      originList,
+      list,
+      translations,
+    })
   }
 
   async _onLoad() {
@@ -154,7 +185,7 @@ export default class Tabs {
     this.onClick = this.handleClick.bind(this)
     this.onChange = this.handleChange.bind(this)
     this.onScroll = throttle(66, this.handleScroll.bind(this))
-    this.onResize = debounce(300, this.handleResize)
+    this.onResize = debounce(300, this.handleResize.bind(this))
 
     document.addEventListener('click', this.onClick)
     document.addEventListener('change', this.onChange)
@@ -163,7 +194,7 @@ export default class Tabs {
   }
 
   async init() {
-    await this._getListData()
+    await this._fetchData()
     this._onLoad()
     this._addListeners()
   }

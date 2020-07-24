@@ -1,6 +1,7 @@
-import { types, LANGUAGE } from '../translations'
+import { LANGUAGE } from '../translations'
+import { iconMore, iconCart } from '../icons'
 
-export default ({ isFirstOfType, title, url, image, info, type }) => {
+export default ({ title, url, image, info }) => {
   const IMAGE_SRC_BASE = '//img.mercedes-benz-kiev.com/data/catalog'
 
   const buttons = {
@@ -35,48 +36,48 @@ export default ({ isFirstOfType, title, url, image, info, type }) => {
   `
 
   return ` 
-  <div class="catalog__box">
-    <div class="title">
-      <div class="title--two">${title}</div>
+  <div class="card">
+    <div class="card__title">${title}</div>
+    <div class="card__subttl">${info[LANGUAGE].price}</div>
+
+    <div class="card__inner">
+      <a href="/${url.main}" class="card__static-image">
+        ${getPicture(image.front)}
+      </a>
+
+      <div class="card__slider flexslider">
+        <ul class="slides">
+          <li>
+            <a href="/${url.main}" class="">
+              ${getPicture(image.front)}
+            </a>
+          </li>
+          <li>
+            <a href="/${url.main}" class="">
+              ${getPicture(image.side)}
+            </a>
+          </li>
+          <li>
+            <a href="/${url.main}" class="">
+              ${getPicture(image.back)}
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <a href="/${url.main}" class="static-image">
-      ${getPicture(image.front)}
-    </a>
-
-    <div class="flexslider">
-      <ul class="slides">
-        <li>
-          <a href="/${url.main}" class="image">
-            ${getPicture(image.front)}
-          </a>
-        </li>
-        <li>
-          <a href="/${url.main}" class="image">
-            ${getPicture(image.side)}
-          </a>
-        </li>
-        <li>
-          <a href="/${url.main}" class="image">
-            ${getPicture(image.back)}
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="info">
-      <p class="info--note">${info && info[LANGUAGE] ? info[LANGUAGE].note : ''}</p>
-      <p class="info--name">${info && info[LANGUAGE] ? info[LANGUAGE].name : ''}</p>
-      <p class="info--price">${info && info[LANGUAGE] ? info[LANGUAGE].price : ''}</p>
-    </div>
-
-    <div class="buttons">
+    <div class="card__buttons">
       ${
         buttons[LANGUAGE] && buttons[LANGUAGE].length > 0
           ? buttons[LANGUAGE].map(({ title: buttonTitle, url: buttonUrl }, i) =>
               buttonUrl
-                ? `<a class="valign" href="/${buttonUrl}">${buttonTitle}</a>`
-                : '<a href="" hidden></a>'
+                ? `
+                  <a 
+                    class="card__button${i === 0 ? ' card__button--more' : ' card__button--buy'}" 
+                    href="/${buttonUrl}"
+                    >${i === 0 ? iconMore : iconCart}${buttonTitle}</a
+                  >`
+                : null
             ).join('')
           : ''
       } 

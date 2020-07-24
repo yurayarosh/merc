@@ -3,40 +3,67 @@ export default function filterList(props = {}) {
 
   const setFirstOfType = (item, i) => (i === 0 ? { ...item, isFirstOfType: true } : item)
 
+  const getTypesNames = list =>
+    list.length > 0 ? [...new Set([...list].map(({ type: t }) => t))] : []
+
   const getSortedList = originList => {
-    const typesNames =
-      originList.length > 0 ? [...new Set([...originList].map(({ type: t }) => t))] : []
-    const sortedByType = []
+    const getSortedOriginList = list => {
+      const typesNames = getTypesNames(list)
+      const sortedByType = []
 
-    typesNames.forEach(typeName => {
-      const sublist = [...originList]
-        .filter(({ isRecommended, type: t }) => t === typeName && !isRecommended)
-        .map(setFirstOfType)
+      typesNames.forEach(typeName => {
+        const sublist = [...list]
+          .filter(({ isRecommended, type: t }) => t === typeName && !isRecommended)
+          .map(setFirstOfType)
 
-      sortedByType.push(...sublist)
-    })
+        sortedByType.push(...sublist)
+      })
+
+      return sortedByType
+    }
+
+    const getSortedRecommendedItems = list => {
+      const typesNames = getTypesNames(list)
+
+      const sortedByType = []
+
+      typesNames.forEach(typeName => {
+        const sublist = [...list].filter(({ type: t }) => t === typeName)
+
+        sortedByType.push(...sublist)
+      })
+
+      return sortedByType
+    }
 
     const recommendedItems = [...originList]
       .filter(({ isRecommended }) => isRecommended)
       .map(setFirstOfType)
 
-    return [...recommendedItems, ...sortedByType]
+    return [...getSortedRecommendedItems(recommendedItems), ...getSortedOriginList(originList)]
   }
 
-  if (group === 'all') {
-    const filteredList = type
-      ? [...this.originListData].filter(({ type: filteredType }) => filteredType === type)
-      : [...this.originListData]
+  const { originList: originListData } = this.store
 
-    this.listData = getSortedList(filteredList)
+  if (group === 'all') {
+    const filteredList =
+      type && type !== 'all'
+        ? originListData.filter(({ type: filteredType }) => filteredType === type)
+        : originListData
+
+    this.updateStore({
+      list: getSortedList(filteredList),
+    })
   } else {
-    const filteredList = [...this.originListData].filter(
+    const filteredList = [...this.store.originList].filter(
       ({ group: filteredGroup, type: filteredType }) => {
-        if (type) return filteredGroup === group && filteredType === type
+        if (type && type !== 'all') return filteredGroup === group && filteredType === type
         return filteredGroup === group
       }
     )
 
-    this.listData = getSortedList(filteredList)
+    this.updateStore({
+      list: getSortedList(filteredList),
+    })
   }
 }

@@ -1,10 +1,25 @@
 import TypeButton from './htmlComponents/TypeButton'
-import { types, LANGUAGE } from './translations'
+import { LANGUAGE } from './translations'
 import { TRANSITION_DURATION } from './constants'
+import {
+  iconHatchback,
+  iconCoupe,
+  iconCabriolet,
+  iconSuv,
+  iconRoadster,
+  iconMinivan,
+  iconTModel,
+  iconSedan,
+} from './icons'
 
 export default function renderTypeButtons() {
+  const {
+    list: listData,
+    translations: { types },
+  } = this.store
+
   const typesNames =
-    this.listData.length > 0 ? [...new Set([...this.listData].map(({ type }) => type))] : []
+    listData.length > 0 ? [...new Set(listData.map(({ type }) => type)), 'all'] : ['all']
 
   const stringifyList = list =>
     list
@@ -21,35 +36,38 @@ export default function renderTypeButtons() {
 
         switch (type) {
           case 'sedan':
-            icon = 'limousine'
+            icon = iconSedan
             break
           case 't-model':
-            icon = 't-modell'
+            icon = iconHatchback
             break
           case 'coupe':
-            icon = 'coupe'
+            icon = iconCoupe
             break
           case 'cabriolet':
-            icon = 'cabriolet'
+            icon = iconCabriolet
             break
           case 'suv':
-            icon = 'suv'
+            icon = iconSuv
             break
           case 'roadster':
-            icon = 'roadster'
+            icon = iconRoadster
             break
-          case 'shooting-brake':
-            icon = 'shooting-brake'
+          case 'hatchback':
+            icon = iconHatchback
             break
           case 'minivan':
-            icon = 'minivan'
+            icon = iconMinivan
+            break
+          case 'all':
             break
           default:
-            icon = 'limousine'
+            icon = iconSedan
             break
         }
 
-        const checked = this.currentTypeName === type
+        const checked = this.currentTypeName ? this.currentTypeName === type : true
+
         return `
           <li>
             ${TypeButton({ type, checked, title, icon })}

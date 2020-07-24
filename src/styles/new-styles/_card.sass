@@ -1,0 +1,134 @@
+.card
+  $this: &
+
+  display: flex
+  flex-direction: column
+
+  text-align: center
+  
+  position: relative
+  z-index: 1
+  +tr(box-shadow .4s)
+
+  padding: 40px 0 0
+
+  +lg
+    background-color: $lighten
+    border-radius: 3px
+
+  .flexslider
+    display: block
+    transition: opacity .4s, visibility .4s
+
+    .flex-direction-nav
+      display: none !important
+
+    .flex-control-paging
+      bottom: 0
+      li
+        a
+          width: 5px
+          height: 5px
+          border-radius: 50%
+          background-color: #ccc
+          +tr(transform .3s)
+          &.flex-active
+            background-color: #000
+            transform: scale(1.5)
+    
+    .slides
+      li
+        position: relative
+        padding-top: 190px
+
+        picture,
+        img
+          position: absolute
+          top: 50%
+          left: 50%
+          transform: translate(-50%, -50%)
+
+          width: 100%
+          height: 100%
+          object-fit: contain
+
+  &:hover
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.1), 0 16px 24px 0 rgba(0,0,0,.1)
+    background-color: #fff
+    z-index: 2
+
+    #{$this}__buttons,
+    #{$this}__slider
+      +visible
+    #{$this}__static-image
+      +hidden
+
+  &__slider
+    +hidden
+    +tr(opacity .4s, opacity .4s)
+    +lg
+      +visible
+
+  &__inner
+    flex-grow: 1
+    padding-left: 20px
+    padding-right: 20px
+    margin-bottom: 20px
+    position: relative
+
+  &__title
+    font-size: 24px
+    margin-bottom: 10px
+  
+  &__subttl
+    color: $dark
+
+  &__static-image
+    position: absolute
+    z-index: 1
+    left: 0
+    top: 15px
+    width: 100%
+    text-align: center
+
+    transition: opacity .4s, visibility .4s
+    img
+      max-width: 100%
+
+    +lg
+      +hidden
+
+  &__buttons
+    position: absolute
+    left: 0
+    right: 0
+    top: 100%
+    background-color: #fff
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.1), 0 16px 24px 0 rgba(0,0,0,.1)
+    +tr(opacity .4s, visibility .4s)
+    +hidden
+    +lg
+      +visible
+      position: static
+      box-shadow: none
+      background-color: transparent
+
+  &__button
+    display: flex
+    align-items: center
+    width: 100%
+
+    border: 1px solid $dark
+    padding: 14px 30px
+    color: inherit
+    +tr(color .3s, background-color .3s)
+
+    .icon-inline
+      margin-right: .5em
+      font-size: 1.1em
+
+    &:hover
+      color: $accent
+
+    &:not(:last-child)
+      border-bottom: 0

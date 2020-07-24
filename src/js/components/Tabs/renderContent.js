@@ -1,10 +1,14 @@
 import { CARDS_TO_SHOW, TRANSITION_DURATION } from './constants'
 import Card from './htmlComponents/Card'
 import Button from './htmlComponents/Button'
-import { auxButtons, LANGUAGE, types } from './translations'
+import { LANGUAGE } from './translations'
 
 export default function renderContent(state = { sliceList: false }) {
   return new Promise(resolve => {
+    const {
+      translations: { types, auxButtons },
+    } = this.store
+
     const stringifyList = list =>
       list.length > 0
         ? list
@@ -31,20 +35,20 @@ export default function renderContent(state = { sliceList: false }) {
         : []
 
     let inner
+    const { list: listData } = this.store
 
     if (state.sliceList) {
-      const shouldSliceList = this.listData.length > CARDS_TO_SHOW
-      this.visibleCards = shouldSliceList
-        ? [...this.listData].slice(0, CARDS_TO_SHOW)
-        : [...this.listData]
+      const shouldSliceList = listData.length > CARDS_TO_SHOW
+      this.visibleCards = shouldSliceList ? listData.slice(0, CARDS_TO_SHOW) : listData
 
       const cardsList = stringifyList(this.visibleCards)
 
-      const cardListWithShowButton = cardsList + Button({ title: auxButtons.show[LANGUAGE] })
+      const cardListWithShowButton =
+        cardsList + Button({ title: auxButtons ? auxButtons.show[LANGUAGE] : '' })
 
       inner = shouldSliceList ? cardListWithShowButton : cardsList
     } else {
-      inner = stringifyList(this.listData)
+      inner = stringifyList(listData)
       // +
       // Button({
       //   mod: 'checked js-hide',

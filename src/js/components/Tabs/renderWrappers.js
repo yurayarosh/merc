@@ -4,9 +4,9 @@ export default function renderWrappers() {
 
       <div class="tabs__tabs-type-title"></div>
 
-      <div class="tabs__types groups__block"></div>
+      <div class="tabs__types"></div>
 
-      <div class="tabs__content catalog"></div>
+      <div class="tabs__content"></div>
     `
   this.content = this.wrap.querySelector('.tabs__content')
   this.typesWrapper = this.wrap.querySelector('.tabs__types')

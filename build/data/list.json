@@ -1,6 +1,34 @@
 [
   {
     "group": "amg",
+    "type": "hatchback",
+    "title": "C-Class Hatchback",
+    "isRecommended": true,
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Sedan"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class хетчбек",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class хетчбек",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
     "type": "sedan",
     "title": "C-Class Sedan",
     "isRecommended": true,
@@ -28,7 +56,91 @@
     }
   },
   {
-    "group": "electro",
+    "group": "maybach",
+    "type": "hatchback",
+    "title": "C-Class Hatchback",
+    "isRecommended": true,
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Sedan"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class хетчбек",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class хетчбек",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "amg",
+    "type": "hatchback",
+    "title": "C-Class Hatchback",
+    "isRecommended": true,
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Sedan"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class хетчбек",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class хетчбек",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "maybach",
+    "type": "hatchback",
+    "title": "C-Class Hatchback",
+    "isRecommended": true,
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Sedan"
+    },
+    "info": {
+      "ru": {
+        "note": "Розничная цена",
+        "name": "C-Class хетчбек",
+        "price": "от 824 946 ₴"
+      },
+      "uk": {
+        "note": "Роздрібна ціна",
+        "name": "C-Class хетчбек",
+        "price": "від 824 946 ₴"
+      }
+    }
+  },
+  {
+    "group": "maybach",
     "type": "sedan",
     "title": "C-Class Sedan",
     "url": {
@@ -83,7 +195,7 @@
     }
   },
   {
-    "group": "electro",
+    "group": "maybach",
     "type": "sedan",
     "title": "C-Class Sedan",
     "url": {
@@ -110,7 +222,7 @@
     }
   },
   {
-    "group": "electro",
+    "group": "maybach",
     "type": "cabriolet",
     "title": "C-Class Cabriolet",
     "url": {
@@ -137,7 +249,7 @@
     }
   },
   {
-    "group": "electro",
+    "group": "maybach",
     "type": "sedan",
     "title": "C-Class Sedan",
     "url": {
@@ -272,7 +384,7 @@
     }
   },
   {
-    "group": "electro",
+    "group": "maybach",
     "type": "t-model",
     "title": "C-Class T-Model",
     "url": {
@@ -402,33 +514,6 @@
       "uk": {
         "note": "Роздрібна ціна",
         "name": "C-Class roadster",
-        "price": "від 824 946 ₴"
-      }
-    }
-  },
-  {
-    "group": "amg",
-    "type": "shooting-brake",
-    "title": "C-Class Shooting-brake",
-    "url": {
-      "main": "obzor-avtomobilya-c-class-limousine",
-      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
-    },
-    "image": {
-      "front": "limousine-1",
-      "side": "glb-class",
-      "back": "gle-coupe",
-      "alt": "C-Class Shooting-brake"
-    },
-    "info": {
-      "ru": {
-        "note": "Розничная цена",
-        "name": "C-Class shooting-brake",
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "note": "Роздрібна ціна",
-        "name": "C-Class shooting-brake",
         "price": "від 824 946 ₴"
       }
     }

@@ -1,6 +1,6 @@
 export default function initSliders() {
   // eslint-disable-next-line
-  $('.catalog__box .flexslider').flexslider({
+  $('.card .flexslider').flexslider({
     animation: 'slide',
   })
 }

@@ -1,12 +1,15 @@
 import TabsButton from './htmlComponents/TabsButton'
-import { groupsNames, LANGUAGE } from './translations'
+import { LANGUAGE } from './translations'
 import classNames from '../../classNames'
 
 export default function renderTabsButtons() {
+  const {
+    originList,
+    translations: { groupsNames },
+  } = this.store
+
   const groups =
-    this.originListData.length > 0
-      ? ['all', ...new Set([...this.originListData].map(({ group }) => group))]
-      : ['all']
+    originList.length > 0 ? ['all', ...new Set(originList.map(({ group }) => group))] : ['all']
 
   let activeButtonText = ''
 
@@ -21,7 +24,11 @@ export default function renderTabsButtons() {
     const isActive = index === 0
     if (isActive) activeButtonText = title
 
-    return TabsButton({ isActive, group, title })
+    return `
+      <li>
+        ${TabsButton({ isActive, group, title })}
+      </li>
+    `
   }
 
   const stringifyList = list => list.map(getButton).join('')
@@ -29,10 +36,10 @@ export default function renderTabsButtons() {
 
   this.tabsButtonsWraper.innerHTML = `
       <div class="tabs-select ${classNames.tabs.select}">
-        <button class="tabs-select__opener">${activeButtonText}</button>
-        <div class="tabs-select__panel">
+        <button type="button" class="tabs-select__opener">${activeButtonText}</button>
+        <ul class="tabs-select__panel">
           ${getButtonsTemplate}
-        </div>
+        </ul>
       </div>
   `
 }
