@@ -31,7 +31,11 @@ export default ({ title, url, image, info }) => {
   <picture>
     <source srcset="${IMAGE_SRC_BASE}/${src}.webp" type="image/webp" />
     <source srcset="${IMAGE_SRC_BASE}/${src}.png" type="image/png" />
-    <img src="${IMAGE_SRC_BASE}/${src}.png" alt="${image.alt || title.card}" />
+    <img
+      src="${IMAGE_SRC_BASE}/${src}.png"
+      alt="${image.alt || title}"
+      title="${image.title || title}"
+    />
   </picture>
   `
 
