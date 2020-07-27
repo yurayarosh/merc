@@ -39,7 +39,10 @@
     .slides
       li
         position: relative
-        padding-top: 190px
+        padding-top: 230px
+
+        +xs
+          padding-top: 275px
 
         picture,
         img
@@ -63,6 +66,20 @@
     #{$this}__static-image
       +hidden
 
+  &__label
+    position: absolute
+    z-index: 2
+    left: 50%
+    top: 15px
+    transform: translate(-50%, 0)
+
+    display: inline-block
+    background-color: $accent
+    color: #fff
+    padding: 5px 10px
+    border-radius: 15px
+    text-align: center
+
   &__slider
     +hidden
     +tr(opacity .4s, opacity .4s)
@@ -73,6 +90,7 @@
     flex-grow: 1
     padding-left: 20px
     padding-right: 20px
+    padding-top: 25px
     margin-bottom: 20px
     position: relative
 
@@ -87,7 +105,7 @@
     position: absolute
     z-index: 1
     left: 0
-    top: 15px
+    top: 65px
     width: 100%
     text-align: center
 

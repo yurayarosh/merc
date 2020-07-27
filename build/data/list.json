@@ -4,6 +4,10 @@
     "type": "hatchback",
     "title": "C-Class Hatchback",
     "isRecommended": true,
+    "label": {
+      "uk": "Новий",
+      "ru": "Новый"
+    },
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": ""

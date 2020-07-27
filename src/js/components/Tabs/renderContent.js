@@ -12,7 +12,7 @@ export default function renderContent(state = { sliceList: false }) {
     const stringifyList = list =>
       list.length > 0
         ? list
-            .map(({ isFirstOfType, isRecommended, title, url, info, image, type }) => {
+            .map(({ isFirstOfType, isRecommended, title, url, info, image, type, label }) => {
               return `
               ${
                 isFirstOfType
@@ -28,6 +28,7 @@ export default function renderContent(state = { sliceList: false }) {
                 info,
                 image,
                 type,
+                label,
               })}
               `
             })
