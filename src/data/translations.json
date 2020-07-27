@@ -11,6 +11,10 @@
     "maybach": {
       "uk": "icon-maybach",
       "ru": "icon-maybach"
+    },
+    "eq-power": {
+      "uk": "icon-eq-power",
+      "ru": "icon-eq-power"
     }
   },
   "types": {

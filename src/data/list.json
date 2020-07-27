@@ -1,8 +1,9 @@
 [
   {
-    "group": "amg",
+    "group": "eq-power",
     "type": "hatchback",
     "title": "C-Class Hatchback",
+    "price": "63 638,00",
     "isRecommended": true,
     "label": {
       "uk": "Новий",
@@ -18,68 +19,35 @@
       "back": "gle-coupe",
       "alt": "ALt C-Class Hatchback",
       "title": "Title C-Class Hatchback"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
-    }
-  },
-  {
-    "group": "amg",
-    "type": "sedan",
-    "title": "C-Class Sedan",
-    "isRecommended": true,
-    "url": {
-      "main": "obzor-avtomobilya-c-class-limousine",
-      "auxiliary": ""
-    },
-    "image": {
-      "front": "limousine-1",
-      "side": "glb-class",
-      "back": "gle-coupe",
-      "alt": "C-Class Sedan"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
-    }
-  },
-  {
-    "group": "maybach",
-    "type": "hatchback",
-    "title": "C-Class Hatchback",
-    "isRecommended": true,
-    "url": {
-      "main": "obzor-avtomobilya-c-class-limousine",
-      "auxiliary": ""
-    },
-    "image": {
-      "front": "limousine-1",
-      "side": "glb-class",
-      "back": "gle-coupe",
-      "alt": "C-Class Sedan"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "hatchback",
     "title": "C-Class Hatchback",
+    "price": "63 638,00",
+    "isRecommended": true,
+    "label": {
+      "uk": "Новий",
+      "ru": "Новый"
+    },
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "ALt C-Class Hatchback",
+      "title": "Title C-Class Hatchback"
+    }
+  },
+  {
+    "group": "amg",
+    "type": "sedan",
+    "title": "C-Class Sedan",
+    "price": "63 638,00",
     "isRecommended": true,
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
@@ -90,20 +58,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Sedan"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "maybach",
     "type": "hatchback",
     "title": "C-Class Hatchback",
+    "price": "63 638,00",
     "isRecommended": true,
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
@@ -114,20 +75,47 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Sedan"
+    }
+  },
+  {
+    "group": "amg",
+    "type": "hatchback",
+    "title": "C-Class Hatchback",
+    "price": "63 638,00",
+    "isRecommended": true,
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": ""
     },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Sedan"
+    }
+  },
+  {
+    "group": "maybach",
+    "type": "hatchback",
+    "title": "C-Class Hatchback",
+    "price": "63 638,00",
+    "isRecommended": true,
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "limousine-1",
+      "side": "glb-class",
+      "back": "gle-coupe",
+      "alt": "C-Class Sedan"
     }
   },
   {
     "group": "maybach",
     "type": "sedan",
     "title": "C-Class Sedan",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -137,20 +125,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Sedan"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "cabriolet",
-    "title": "C-Class Cabriolet",
+    "title": "C-Class Cabriolet",    
+    "price": "63 638,00",
     "isRecommended": true,
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
@@ -161,20 +142,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Cabriolet"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "maybach",
     "type": "sedan",
     "title": "C-Class Sedan",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -184,20 +158,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Sedan"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "maybach",
     "type": "cabriolet",
     "title": "C-Class Cabriolet",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -207,20 +174,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Cabriolet"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "maybach",
     "type": "sedan",
     "title": "C-Class Sedan",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -230,20 +190,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Sedan"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "sedan",
     "title": "C-Class Sedan",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -253,20 +206,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Sedan"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "cabriolet",
     "title": "C-Class Cabriolet",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -276,20 +222,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Cabriolet"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "t-model",
     "title": "C-Class T-Model",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -299,20 +238,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class T-Model"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "t-model",
     "title": "C-Class T-Model",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -322,20 +254,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class T-Model"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "maybach",
     "type": "t-model",
     "title": "C-Class T-Model",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -345,20 +270,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class T-Model"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "t-model",
     "title": "C-Class T-Model",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -368,20 +286,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class T-Model"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "suv",
     "title": "C-Class Suv",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -391,20 +302,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Suv"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "coupe",
     "title": "C-Class Coupe",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -414,20 +318,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Coupe"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "roadster",
     "title": "C-Class Roadster",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -437,20 +334,13 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Roadster"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   },
   {
     "group": "amg",
     "type": "minivan",
     "title": "C-Class Minivan",
+    "price": "63 638,00",
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": "prodazha-avtomobiley-c-class-limousine"
@@ -460,14 +350,6 @@
       "side": "glb-class",
       "back": "gle-coupe",
       "alt": "C-Class Minivan"
-    },
-    "info": {
-      "ru": {
-        "price": "от 824 946 ₴"
-      },
-      "uk": {
-        "price": "від 824 946 ₴"
-      }
     }
   }
 ]

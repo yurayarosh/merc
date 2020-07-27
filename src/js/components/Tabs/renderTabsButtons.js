@@ -1,5 +1,5 @@
 import TabsButton from './htmlComponents/TabsButton'
-import { LANGUAGE } from './translations'
+import { LANGUAGE } from './constants'
 import classNames from '../../classNames'
 
 export default function renderTabsButtons() {

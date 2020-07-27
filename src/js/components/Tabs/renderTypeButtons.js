@@ -1,6 +1,6 @@
 import TypeButton from './htmlComponents/TypeButton'
-import { LANGUAGE } from './translations'
-import { TRANSITION_DURATION } from './constants'
+import { LANGUAGE, TRANSITION_DURATION } from './constants'
+
 import {
   iconHatchback,
   iconCoupe,

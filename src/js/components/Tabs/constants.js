@@ -4,3 +4,5 @@ export const QUERY_GROUP = 'group='
 export const QUERY_TYPE = 'type='
 export const FETCHED_LIST_URL = './data/list.json'
 export const FETCHED_TRANSLATIONS_URL = './data/translations.json'
+export const LANGUAGE = window.LANGUAGE || 'uk'
+export const CURRENCY_INDEX = window.CURRENCY_INDEX || 30

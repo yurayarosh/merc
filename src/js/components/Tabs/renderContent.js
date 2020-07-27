@@ -1,7 +1,6 @@
-import { CARDS_TO_SHOW, TRANSITION_DURATION } from './constants'
+import { CARDS_TO_SHOW, TRANSITION_DURATION, LANGUAGE } from './constants'
 import Card from './htmlComponents/Card'
 import Button from './htmlComponents/Button'
-import { LANGUAGE } from './translations'
 
 export default function renderContent(state = { sliceList: false }) {
   return new Promise(resolve => {
@@ -12,7 +11,7 @@ export default function renderContent(state = { sliceList: false }) {
     const stringifyList = list =>
       list.length > 0
         ? list
-            .map(({ isFirstOfType, isRecommended, title, url, info, image, type, label }) => {
+            .map(({ isFirstOfType, isRecommended, title, url, price, image, type, label }) => {
               return `
               ${
                 isFirstOfType
@@ -25,7 +24,7 @@ export default function renderContent(state = { sliceList: false }) {
                 isFirstOfType,
                 title,
                 url,
-                info,
+                price,
                 image,
                 type,
                 label,

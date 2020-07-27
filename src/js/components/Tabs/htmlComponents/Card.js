@@ -1,7 +1,7 @@
-import { LANGUAGE } from '../translations'
+import { LANGUAGE } from '../constants'
 import { iconMore, iconCart } from '../icons'
 
-export default ({ title, url, image, info, label }) => {
+export default ({ title, url, image, price, label }) => {
   const IMAGE_SRC_BASE = '//img.mercedes-benz-kiev.com/data/catalog'
 
   const buttons = {
@@ -42,7 +42,7 @@ export default ({ title, url, image, info, label }) => {
   return ` 
   <div class="card">
     <div class="card__title">${title}</div>
-    <div class="card__subttl">${info[LANGUAGE].price}</div>
+    <div class="card__subttl">${price}</div>
 
     <div class="card__inner">
       ${label ? `<div class="card__label">${label[LANGUAGE]}</div>` : ''}

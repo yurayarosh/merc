@@ -1,5 +1,5 @@
 import classNames from '../../../classNames'
-import { iconAmg, iconMaybach } from '../icons'
+import { iconAmg, iconMaybach, iconEQPower } from '../icons'
 
 export default ({ isActive, title, group }) => {
   let icon = ''
@@ -9,6 +9,9 @@ export default ({ isActive, title, group }) => {
       break
     case 'icon-maybach':
       icon = iconMaybach
+      break
+    case 'icon-eq-power':
+      icon = iconEQPower
       break
     default:
       icon = ''
