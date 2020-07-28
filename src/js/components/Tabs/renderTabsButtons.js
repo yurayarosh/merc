@@ -10,12 +10,17 @@ export default function renderTabsButtons() {
 
   const newModels = [...originList].filter(({ labels }) => labels && labels.new)
 
-  const groupNamesArr =
-    newModels.length > 0
-      ? ['all', ...new Set(originList.map(({ group }) => group)), 'new']
-      : ['all', ...new Set(originList.map(({ group }) => group))]
+  const getGroupNamesList = list => {
+    let newList = [...new Set(list.map(({ group }) => group))]
 
-  const groups = originList.length > 0 ? groupNamesArr : ['all']
+    newList = [...new Set(newList.flat(1))]
+    return newList
+  }
+
+  const groupNamesArr =
+    newModels.length > 0 ? [...getGroupNamesList(originList), 'new'] : getGroupNamesList(originList)
+
+  const groups = originList.length > 0 ? groupNamesArr : []
 
   let activeButtonText = ''
 

@@ -1,6 +1,6 @@
 [
   {
-    "group": "eq-power",
+    "group": ["all", "eq-power"],
     "type": "hatchback",
     "title": "C-Class Hatchback",
     "price": "63 638,00",
@@ -28,7 +28,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["all", "amg"],
     "type": "hatchback",
     "title": "C-Class Hatchback",
     "price": "63 638,00",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["all"],
     "type": "sedan",
     "title": "C-Class Sedan",
     "price": "63 638,00",
@@ -75,7 +75,7 @@
     }
   },
   {
-    "group": "maybach",
+    "group": ["all"],
     "type": "hatchback",
     "title": "C-Class Hatchback",
     "price": "63 638,00",
@@ -92,7 +92,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["all"],
     "type": "hatchback",
     "title": "C-Class Hatchback",
     "price": "63 638,00",
@@ -109,7 +109,7 @@
     }
   },
   {
-    "group": "maybach",
+    "group": ["maybach"],
     "type": "hatchback",
     "title": "C-Class Hatchback",
     "price": "63 638,00",
@@ -126,7 +126,7 @@
     }
   },
   {
-    "group": "maybach",
+    "group": ["maybach"],
     "type": "sedan",
     "title": "C-Class Sedan",
     "price": "63 638,00",
@@ -142,7 +142,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["amg"],
     "type": "cabriolet",
     "title": "C-Class Cabriolet",    
     "price": "63 638,00",
@@ -159,7 +159,7 @@
     }
   },
   {
-    "group": "maybach",
+    "group": ["maybach"],
     "type": "sedan",
     "title": "C-Class Sedan",
     "price": "63 638,00",
@@ -175,7 +175,7 @@
     }
   },
   {
-    "group": "maybach",
+    "group": ["maybach"],
     "type": "cabriolet",
     "title": "C-Class Cabriolet",
     "price": "63 638,00",
@@ -191,7 +191,7 @@
     }
   },
   {
-    "group": "maybach",
+    "group": ["maybach"],
     "type": "sedan",
     "title": "C-Class Sedan",
     "price": "63 638,00",
@@ -207,7 +207,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["amg"],
     "type": "sedan",
     "title": "C-Class Sedan",
     "price": "63 638,00",
@@ -223,7 +223,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["amg"],
     "type": "cabriolet",
     "title": "C-Class Cabriolet",
     "price": "63 638,00",
@@ -239,7 +239,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["amg"],
     "type": "t-model",
     "title": "C-Class T-Model",
     "price": "63 638,00",
@@ -255,7 +255,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["amg"],
     "type": "t-model",
     "title": "C-Class T-Model",
     "price": "63 638,00",
@@ -271,7 +271,7 @@
     }
   },
   {
-    "group": "maybach",
+    "group": ["maybach"],
     "type": "t-model",
     "title": "C-Class T-Model",
     "price": "63 638,00",
@@ -287,7 +287,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["amg"],
     "type": "t-model",
     "title": "C-Class T-Model",
     "price": "63 638,00",
@@ -303,7 +303,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["amg"],
     "type": "suv",
     "title": "C-Class Suv",
     "price": "63 638,00",
@@ -319,7 +319,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["amg"],
     "type": "coupe",
     "title": "C-Class Coupe",
     "price": "63 638,00",
@@ -335,7 +335,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["amg"],
     "type": "roadster",
     "title": "C-Class Roadster",
     "price": "63 638,00",
@@ -351,7 +351,7 @@
     }
   },
   {
-    "group": "amg",
+    "group": ["amg"],
     "type": "minivan",
     "title": "C-Class Minivan",
     "price": "63 638,00",
