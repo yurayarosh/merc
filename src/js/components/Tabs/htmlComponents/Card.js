@@ -33,15 +33,15 @@ export default ({ title, url, image, price, labels }) => {
     <source srcset="${IMAGE_SRC_BASE}/${src}.png" type="image/png" />
     <img
       src="${IMAGE_SRC_BASE}/${src}.png"
-      alt="${image.alt || title}"
-      title="${image.title || title}"
+      alt="${image.alt[LANGUAGE] || title[LANGUAGE] || title}"
+      title="${image.title[LANGUAGE] || title[LANGUAGE] || title}"
     />
   </picture>
   `
 
   return ` 
   <div class="card">
-    <div class="card__title">${title}</div>
+    <div class="card__title">${title[LANGUAGE] || title}</div>
     <div class="card__subttl">${price}</div>
 
     <div class="card__inner">
