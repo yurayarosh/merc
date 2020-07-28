@@ -91,26 +91,26 @@ export default function filterList(props = {}) {
   }
 
   const { originList: originListData } = this.store
+  let filteredList = []
 
   if (group === 'all') {
-    const filteredList =
+    filteredList =
       type && type !== 'all'
         ? originListData.filter(({ type: filteredType }) => filteredType === type)
         : originListData
-
-    this.updateStore({
-      list: getSortedList(filteredList),
+  } else if (group === 'new') {
+    filteredList = originListData.filter(({ labels, type: filteredType }) => {
+      if (type && type !== 'all') return labels && labels.new && filteredType === type
+      return labels && labels.new
     })
   } else {
-    const filteredList = [...this.store.originList].filter(
-      ({ group: filteredGroup, type: filteredType }) => {
-        if (type && type !== 'all') return filteredGroup === group && filteredType === type
-        return filteredGroup === group
-      }
-    )
-
-    this.updateStore({
-      list: getSortedList(filteredList),
+    filteredList = originListData.filter(({ group: filteredGroup, type: filteredType }) => {
+      if (type && type !== 'all') return filteredGroup === group && filteredType === type
+      return filteredGroup === group
     })
   }
+
+  this.updateStore({
+    list: getSortedList(filteredList),
+  })
 }

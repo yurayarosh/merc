@@ -66,19 +66,30 @@
     #{$this}__static-image
       +hidden
 
-  &__label
+  &__labels
     position: absolute
     z-index: 2
     left: 50%
     top: 15px
     transform: translate(-50%, 0)
-
+    width: 100%
+    text-align: center
+  
+  &__label
     display: inline-block
     background-color: $accent
+    border: 1px solid $accent
     color: #fff
     padding: 5px 10px
+    margin-left: 3px
+    margin-right: 3px
     border-radius: 15px
     text-align: center
+
+    &--aux
+      background-color: transparent
+      border-color: currentColor
+      color: inherit
 
   &__slider
     +hidden

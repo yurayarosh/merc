@@ -15,6 +15,10 @@
     "eq-power": {
       "uk": "icon-eq-power",
       "ru": "icon-eq-power"
+    },
+    "new": {
+      "uk": "Нові автомобілі",
+      "ru": "Новые автомоблили"
     }
   },
   "types": {

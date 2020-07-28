@@ -5,9 +5,15 @@
     "title": "C-Class Hatchback",
     "price": "63 638,00",
     "isRecommended": true,
-    "label": {
-      "uk": "Новий",
-      "ru": "Новый"
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      },
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
     },
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
@@ -27,9 +33,11 @@
     "title": "C-Class Hatchback",
     "price": "63 638,00",
     "isRecommended": true,
-    "label": {
-      "uk": "Новий",
-      "ru": "Новый"
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      }
     },
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
@@ -49,6 +57,12 @@
     "title": "C-Class Sedan",
     "price": "63 638,00",
     "isRecommended": true,
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      }
+    },
     "url": {
       "main": "obzor-avtomobilya-c-class-limousine",
       "auxiliary": ""
