@@ -37,6 +37,10 @@ const { tabs: classNames } = classes
 export default class Tabs {
   constructor(wrap) {
     this.wrap = wrap
+    this.options = {
+      isSimple: wrap.dataset.simple === 'true',
+      filter: wrap.dataset.filter,
+    }
     this.isLoaded = false
     this.store = {}
 
@@ -168,11 +172,15 @@ export default class Tabs {
 
   async _onLoad() {
     this.renderWrappers()
-    this.renderTabsButtons()
 
-    if (TRANSITION_DURATION > 0) this.content.style.transition = `opacity ${TRANSITION_DURATION}ms`
-    if (TRANSITION_DURATION > 0)
-      this.typesWrapper.style.transition = `opacity ${TRANSITION_DURATION}ms`
+    if (!this.options.isSimple) {
+      this.renderTabsButtons()
+
+      if (TRANSITION_DURATION > 0)
+        this.content.style.transition = `opacity ${TRANSITION_DURATION}ms`
+      if (TRANSITION_DURATION > 0)
+        this.typesWrapper.style.transition = `opacity ${TRANSITION_DURATION}ms`
+    }
 
     await this.handleLoading()
 
@@ -182,15 +190,19 @@ export default class Tabs {
   }
 
   _addListeners() {
-    this.onClick = this.handleClick.bind(this)
-    this.onChange = this.handleChange.bind(this)
     this.onScroll = throttle(66, this.handleScroll.bind(this))
     this.onResize = debounce(300, this.handleResize.bind(this))
 
-    document.addEventListener('click', this.onClick)
-    document.addEventListener('change', this.onChange)
     window.addEventListener('scroll', this.onScroll)
     window.addEventListener('resize', this.onResize)
+
+    if (!this.options.isSimple) {
+      this.onClick = this.handleClick.bind(this)
+      this.onChange = this.handleChange.bind(this)
+
+      document.addEventListener('click', this.onClick)
+      document.addEventListener('change', this.onChange)
+    }
   }
 
   async init() {

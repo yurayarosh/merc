@@ -49,11 +49,6 @@ export default function renderContent(state = { sliceList: false }) {
       inner = shouldSliceList ? cardListWithShowButton : cardsList
     } else {
       inner = stringifyList(listData)
-      // +
-      // Button({
-      //   mod: 'checked js-hide',
-      //   title: auxButtons.hide[LANGUAGE],
-      // })
     }
 
     const appendInner = (props = {}) => {
@@ -64,7 +59,7 @@ export default function renderContent(state = { sliceList: false }) {
 
       this.initSliders()
 
-      this.pushUrl()
+      if (!this.options.isSimple) this.pushUrl()
 
       this.typesTitles = [...document.querySelectorAll('.tabs__group-title')]
 

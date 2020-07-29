@@ -6,10 +6,13 @@ export default function toggleTypesTitles() {
   const activeTitles = []
 
   this.typesTitles.forEach(title => {
-    const { top, height } = title.getBoundingClientRect()
+    const { top } = title.getBoundingClientRect()
+    const tabsHeight = this.tabsButtonsWraper ? this.tabsButtonsWraper.offsetHeight : 0
+    const typesHeight = this.typesWrapper ? this.typesWrapper.offsetHeight : 0
+
     const OFFSET = window.matchMedia('(min-width: 1200px)').matches
-      ? this.tabsButtonsWraper.offsetHeight
-      : this.tabsButtonsWraper.offsetHeight + this.typesWrapper.offsetHeight
+      ? tabsHeight
+      : tabsHeight + typesHeight
 
     if (top <= OFFSET) activeTitles.push(title)
   })

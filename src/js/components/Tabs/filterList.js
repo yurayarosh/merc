@@ -105,7 +105,13 @@ export default function filterList(props = {}) {
     })
   }
 
+  let sortedList = getSortedList(filteredList)
+
+  if (this.options.filter === 'available') {
+    sortedList = sortedList.filter(({ url: { auxiliary } }) => auxiliary)
+  }
+
   this.updateStore({
-    list: getSortedList(filteredList),
+    list: sortedList,
   })
 }

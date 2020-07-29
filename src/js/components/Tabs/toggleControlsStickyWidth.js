@@ -4,12 +4,12 @@ export default function toggleControlsStickyWidth() {
   const { top } = this.wrap.getBoundingClientRect()
 
   if (top <= 0) {
-    this.tabsButtonsWraper.classList.add('tabs__tabs--fixed')
-    this.tabsTypeTitle.classList.add('tabs__tabs-type-title--fixed')
-    this.typesWrapper.classList.add('tabs__types--fixed')
+    if (this.tabsButtonsWraper) this.tabsButtonsWraper.classList.add('tabs__tabs--fixed')
+    if (this.tabsTypeTitle) this.tabsTypeTitle.classList.add('tabs__tabs-type-title--fixed')
+    if (this.typesWrapper) this.typesWrapper.classList.add('tabs__types--fixed')
   } else {
-    this.tabsButtonsWraper.classList.remove('tabs__tabs--fixed')
-    this.tabsTypeTitle.classList.remove('tabs__tabs-type-title--fixed')
-    this.typesWrapper.classList.remove('tabs__types--fixed')
+    if (this.tabsButtonsWraper) this.tabsButtonsWraper.classList.remove('tabs__tabs--fixed')
+    if (this.tabsTypeTitle) this.tabsTypeTitle.classList.remove('tabs__tabs-type-title--fixed')
+    if (this.typesWrapper) this.typesWrapper.classList.remove('tabs__types--fixed')
   }
 }

@@ -15,7 +15,7 @@
     },
     "url": {
       "main": "oobzor-avtomobilya-a-class-hatchbak",
-      "auxiliary": ""
+      "auxiliary": "blahblah"
     },
     "image": {
       "front": "mercedes-benz-a-class-hatchback-1",
@@ -47,7 +47,7 @@
     },
     "url": {
       "main": "obzor-avtomobilya-b-class-hatchbak",
-      "auxiliary": ""
+      "auxiliary": "blahblah"
     },
     "image": {
       "front": "mercedes-benz-b-class-hatchback-1",
@@ -767,7 +767,7 @@
     }
   },
   {
-    "group": ["all","maybach","new"],
+    "group": ["all","maybach"],
     "type": "suv",
     "title": {
       "uk": "Maybach GLS",
@@ -891,7 +891,7 @@
     }
   },
   {
-    "group": ["all","new"],
+    "group": ["all"],
     "type": "cabriolet",
     "title": {
       "uk": "E-Class Кабріолет",
@@ -979,7 +979,7 @@
     }
   },
   {
-    "group": ["all","new","eq-power"],
+    "group": ["all","eq-power"],
     "type": "minivan",
     "title": {
       "uk": "EQV мінівен",
@@ -1043,7 +1043,3 @@
     }
   }
 ]
-
-
-
-
