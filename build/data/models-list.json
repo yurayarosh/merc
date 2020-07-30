@@ -1,0 +1,1750 @@
+[
+  {
+    "group": ["all", "eq-power"],
+    "type": "hatchback",
+    "title": {
+      "uk": "A–Class Седани фото",
+      "ru": "A–Class Седаны фото"
+    },
+    "price": "29 710,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-a-class",
+      "auxiliary": "prodazha-avtomobiley-a-class"
+    },
+    "image": {
+      "front": "mercedes-benz-a-class-hatchback-1",
+      "side": "mercedes-benz-a-class-hatchback-2",
+      "back": "mercedes-benz-a-class-hatchback-3",
+      "alt": {
+        "uk": "Mercedes–Benz A–Class Хетчбек",
+        "ru": "Mercedes–Benz A–Class Хэтчбек"
+      },
+      "title": {
+        "uk": "Mercedes–Benz A–Class Хетчбек фото",
+        "ru": "Mercedes–Benz A–Class Хэтчбек фото"
+      }
+    }
+  },
+  {
+    "group": ["all", "eq-power"],
+    "type": "hatchback",
+    "title": {
+      "uk": "B–Class Седани фото",
+      "ru": "B–Class Седаны фото"
+    },
+    "price": "29 964,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-b-class-hatchbak",
+      "auxiliary": "prodazha-avtomobiley-b-class-hatchbak"
+    },
+    "image": {
+      "front": "mercedes-benz-b-class-hatchback-1",
+      "side": "mercedes-benz-b-class-hatchback-2",
+      "back": "mercedes-benz-b-class-hatchback-3",
+      "alt": {
+        "uk": "Mercedes–Benz B–Class Хетчбек",
+        "ru": "Mercedes–Benz B–Class Хэтчбек"
+      },
+      "title": {
+        "uk": "Mercedes–Benz B–Class Хетчбек фото",
+        "ru": "Mercedes–Benz B–Class Хэтчбек фото"
+      }
+    }
+  },
+  {
+    "group": ["all", "eq-power"],
+    "type": "t-model",
+    "title": {
+      "uk": "C-Class універсали фото",
+      "ru": "C-Class универсалы фото"
+    },
+    "price": "30 165,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-c-class-t-modell",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-c-class-t-model-1",
+      "side": "mercedes-benz-c-class-t-model-2",
+      "back": "mercedes-benz-c-class-t-model-3",
+      "alt": {
+        "uk": "Mercedes–Benz B–Class Універсал",
+        "ru": "Mercedes–Benz B–Class Универсал"
+      },
+      "title": {
+        "uk": "Mercedes–Benz B–Class Універсал фото",
+        "ru": "Mercedes–Benz B–Class Универсал фото"
+      }
+    }
+  },
+  {
+    "group": ["all", "eq-power"],
+    "type": "t-model",
+    "title": {
+      "uk": "E-Class універсали фото",
+      "ru": "E-Class универсалы фото"
+    },
+    "price": "42 035,00",
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      },
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "mercedes-benz-e-class-t-modell-new",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-e-class-t-model-1",
+      "side": "mercedes-benz-e-class-t-model-2",
+      "back": "mercedes-benz-e-class-t-model-3",
+      "alt": {
+        "uk": "Mercedes–Benz E–Class Універсал",
+        "ru": "Mercedes–Benz E–Class Универсал"
+      },
+      "title": {
+        "uk": "Mercedes–Benz E–Class Універсал фото",
+        "ru": "Mercedes–Benz E–Class Универсал фото"
+      }
+    }
+  },
+  {
+    "group": ["all", "eq-power"],
+    "type": "t-model",
+    "title": {
+      "uk": "CLA Shooting Brake фото",
+      "ru": "CLA Shooting Brake фото"
+    },
+    "price": "32 939,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-cla-shooting-brake",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-cla-shooting-brake-1",
+      "side": "mercedes-benz-cla-shooting-brake-2",
+      "back": "mercedes-benz-cla-shooting-brake-3",
+      "alt": {
+        "uk": "CLA Shooting Brake Універсал",
+        "ru": "CLA Shooting Brake Универсал"
+      },
+      "title": {
+        "uk": "CLA Shooting Brake Універсал фото",
+        "ru": "CLA Shooting Brake Универсал фото"
+      }
+    }
+  },
+  {
+    "group": ["all", "eq-power"],
+    "type": "sedan",
+    "title": {
+      "uk": "A-Class Седани фото",
+      "ru": "A-Class Седаны фото"
+    },
+    "price": "28 975,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-a-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-a-class-limousine"
+    },
+    "image": {
+      "front": "mercedes-benz-a-class-limousine-1",
+      "side": "mercedes-benz-a-class-limousine-2",
+      "back": "mercedes-benz-a-class-limousine-3",
+      "alt": {
+        "uk": "CLA Shooting Brake Універсал",
+        "ru": "CLA Shooting Brake Универсал"
+      },
+      "title": {
+        "uk": "CLA Shooting Brake Універсал фото",
+        "ru": "CLA Shooting Brake Универсал фото"
+      }
+    }
+  },
+  {
+    "group": ["all", "eq-power"],
+    "type": "sedan",
+    "title": {
+      "uk": "C-Class Седани фото",
+      "ru": "C-Class Седаны фото"
+    },
+    "price": "30 666,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-c-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-c-class-limousine"
+    },
+    "image": {
+      "front": "mercedes-benz-c-class-limousine-1",
+      "side": "mercedes-benz-c-class-limousine-2",
+      "back": "mercedes-benz-c-class-limousine-3",
+      "alt": {
+        "uk": "Mercedes-Benz C-Class Седан",
+        "ru": "Mercedes-Benz C-Class Седан"
+      },
+      "title": {
+        "uk": "Mercedes-Benz C-Class Седан фото",
+        "ru": "Mercedes-Benz C-Class Седан фото"
+      }
+    }
+  },
+  {
+    "group": ["all", "eq-power"],
+    "type": "sedan",
+    "title": {
+      "uk": "E-Class Седани фото",
+      "ru": "E-Class Седаны фото"
+    },
+    "price": "39 229,00",
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      },
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "mercedes-benz-e-class-t-modell-new",
+      "auxiliary": "prodazha-avtomobiley-e-class-limousine"
+    },
+    "image": {
+      "front": "mercedes-benz-e-class-limousine-1",
+      "side": "mercedes-benz-e-class-limousine-2",
+      "back": "mercedes-benz-e-class-limousine-3",
+      "alt": {
+        "uk": "Mercedes-Benz E-Class Седан",
+        "ru": "Mercedes-Benz E-Class Седан"
+      },
+      "title": {
+        "uk": "Mercedes-Benz E-Class Седан фото",
+        "ru": "Mercedes-Benz E-Class Седан фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "sedan",
+    "title": {
+      "uk": "S-Class Седани фото",
+      "ru": "S-Class Седаны фото"
+    },
+    "price": "78 332,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-s-class-limousine",
+      "auxiliary": "prodazha-avtomobiley-s-class-limousine"
+    },
+    "image": {
+      "front": "mercedes-benz-s-class-limousine-1",
+      "side": "mercedes-benz-s-class-limousine-2",
+      "back": "mercedes-benz-s-class-limousine-3",
+      "alt": {
+        "uk": "Mercedes-Benz S-Class Седан",
+        "ru": "Mercedes-Benz S-Class Седан"
+      },
+      "title": {
+        "uk": "Mercedes-Benz S-Class Седан фото",
+        "ru": "Mercedes-Benz S-Class Седан фото"
+      }
+    }
+  },
+  {
+    "group": ["all","maybach"],
+    "type": "sedan",
+    "title": {
+      "uk": "Maybach S-Class Седани фото",
+      "ru": "Maybach S-Class Седаны фото"
+    },
+    "price": "145 308,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-maybach-s-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-maybach-s-class-limousine-1",
+      "side": "mercedes-maybach-s-class-limousine-2",
+      "back": "mercedes-maybach-s-class-limousine-3",
+      "alt": {
+        "uk": "Mercedes-Maybach S-Class Седан",
+        "ru": "Mercedes-Maybach S-Class Седан"
+      },
+      "title": {
+        "uk": "Mercedes-Maybach S-Class Седан фото",
+        "ru": "Mercedes-Maybach S-Class Седан фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "coupe",
+    "title": {
+      "uk": "С-Class Купе фото",
+      "ru": "С-Class Купе фото"
+    },
+    "price": "37 472,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-c-class-coupe",
+      "auxiliary": "prodazha-avtomobiley-c-class-coupe"
+    },
+    "image": {
+      "front": "mercedes-benz-c-class-coupe-1",
+      "side": "mercedes-benz-c-class-coupe-2",
+      "back": "mercedes-benz-c-class-coupe-3",
+      "alt": {
+        "uk": "Mercedes-Benz C-Class Купе",
+        "ru": "Mercedes-Benz C-Class Купе"
+      },
+      "title": {
+        "uk": "Mercedes-Benz C-Class Купе фото",
+        "ru": "Mercedes-Benz C-Class Купе фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "coupe",
+    "title": {
+      "uk": "E-Class Купе фото",
+      "ru": "E-Class Купе фото"
+    },
+    "price": "47 821,00",
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-e-class-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-e-class-coupe-1",
+      "side": "mercedes-benz-e-class-coupe-2",
+      "back": "mercedes-benz-e-class-coupe-3",
+      "alt": {
+        "uk": "Mercedes-Benz E-Class Купе",
+        "ru": "Mercedes-Benz E-Class Купе"
+      },
+      "title": {
+        "uk": "Mercedes-Benz E-Class Купе фото",
+        "ru": "Mercedes-Benz E-Class Купе фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "coupe",
+    "title": {
+      "uk": "S-Class Купе фото",
+      "ru": "S-Class Купе фото"
+    },
+    "price": "107 200,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-s-class-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-s-class-coupe-1",
+      "side": "mercedes-benz-s-class-coupe-2",
+      "back": "mercedes-benz-s-class-coupe-3",
+      "alt": {
+        "uk": "Mercedes-Benz S-Class Купе",
+        "ru": "Mercedes-Benz S-Class Купе"
+      },
+      "title": {
+        "uk": "Mercedes-Benz S-Class Купе фото",
+        "ru": "Mercedes-Benz S-Class Купе фото"
+      }
+    }
+  },
+  {
+    "group": ["all","eq-power"],
+    "type": "coupe",
+    "title": {
+      "uk": "CLA Купе фото",
+      "ru": "CLA Купе фото"
+    },
+    "price": "32 279,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-cla-coupe-new",
+      "auxiliary": "prodazha-avtomobiley-gla-vnedorozhnik"
+    },
+    "image": {
+      "front": "mercedes-benz-cla-coupe-1",
+      "side": "mercedes-benz-cla-coupe-2",
+      "back": "mercedes-benz-cla-coupe-3",
+      "alt": {
+        "uk": "Mercedes-Benz CLA Купе",
+        "ru": "Mercedes-Benz CLA Купе"
+      },
+      "title": {
+        "uk": "Mercedes-Benz CLA Купе фото",
+        "ru": "Mercedes-Benz CLA Купе фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "coupe",
+    "title": {
+      "uk": "CLS Купе фото",
+      "ru": "CLS Купе фото"
+    },
+    "price": "59 961,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-cls-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-cls-coupe-1",
+      "side": "mercedes-benz-cls-coupe-2",
+      "back": "mercedes-benz-cls-coupe-3",
+      "alt": {
+        "uk": "Mercedes-Benz CLS Купе",
+        "ru": "Mercedes-Benz CLS Купе"
+      },
+      "title": {
+        "uk": "Mercedes-Benz CLS Купе фото",
+        "ru": "Mercedes-Benz CLS Купе фото"
+      }
+    }
+  },
+  {
+    "group": ["all","amg"],
+    "type": "coupe",
+    "title": {
+      "uk": "AMG GT Купе фото",
+      "ru": "AMG GT Купе фото"
+    },
+    "price": "136 860,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-amg-gt-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-gt-coupe-1",
+      "side": "mercedes-amg-gt-coupe-2",
+      "back": "mercedes-amg-gt-coupe-3",
+      "alt": {
+        "uk": "Mercedes-AMG GT Купе",
+        "ru": "Mercedes-AMG GT Купе"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GT Купе фото",
+        "ru": "Mercedes-AMG GT Купе фото"
+      }
+    }
+  },
+  {
+    "group": ["all","amg"],
+    "type": "coupe",
+    "title": {
+      "uk": "AMG GT 4-door Купе фото",
+      "ru": "AMG GT 4-door Купе фото"
+    },
+    "price": "105 347,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-amg-gt-coupe-4-door",
+      "auxiliary": "prodazha-avtomobiley-amg-gt-coupe-4-door"
+    },
+    "image": {
+      "front": "mercedes-amg-gt-4-door-coupe-1",
+      "side": "mercedes-amg-gt-4-door-coupe-2",
+      "back": "mercedes-amg-gt-4-door-coupe-3",
+      "alt": {
+        "uk": "Mercedes-AMG GT Купе",
+        "ru": "Mercedes-AMG GT Купе"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GT Купе фото",
+        "ru": "Mercedes-AMG GT Купе фото"
+      }
+    }
+  },
+  {
+    "group": ["all","eq-power"],
+    "type": "suv",
+    "title": {
+      "uk": "EQC фото",
+      "ru": "EQC фото"
+    },
+    "labels": {
+      "hybrid": {
+        "uk": "Електромобіль",
+        "ru": "Єлектромобиль"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-eqc",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-eqc-1",
+      "side": "mercedes-benz-eqc-2",
+      "back": "mercedes-benz-eqc-3",
+      "alt": {
+        "uk": "Mercedes-Benz EQC Позашляховики",
+        "ru": "Mercedes-Benz EQC Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-Benz EQC Позашляховики фото",
+        "ru": "Mercedes-Benz EQC Внедорожники фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "suv",
+    "title": {
+      "uk": "G-Class фото",
+      "ru": "G-Class фото"
+    },
+    "price": "136 860,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-g-klass",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-g-class-1",
+      "side": "mercedes-benz-g-class-2",
+      "back": "mercedes-benz-g-class-3",
+      "alt": {
+        "uk": "Mercedes-Benz G-Class Позашляховики",
+        "ru": "Mercedes-Benz G-Class Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-Benz G-Class Позашляховики фото",
+        "ru": "Mercedes-Benz G-Class Внедорожники фото"
+      }
+    }
+  },
+  {
+    "group": ["all","eq-power"],
+    "type": "suv",
+    "title": {
+      "uk": "GLA-Class фото",
+      "ru": "GLA-Class фото"
+    },
+    "price": "30 915,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "mercedes-benz-gla",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-gla-1",
+      "side": "mercedes-benz-gla-2",
+      "back": "mercedes-benz-gla-3",
+      "alt": {
+        "uk": "Mercedes-Benz G-Class Позашляховики",
+        "ru": "Mercedes-Benz G-Class Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-Benz G-Class Позашляховики фото",
+        "ru": "Mercedes-Benz G-Class Внедорожники фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "suv",
+    "title": {
+      "uk": "GLB-Class фото",
+      "ru": "GLB-Class фото"
+    },
+    "price": "33 610,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-benz-glb",
+      "auxiliary": "prodazha-avtomobiley-glb-vnedorozhnik"
+    },
+    "image": {
+      "front": "mercedes-benz-glb-1",
+      "side": "mercedes-benz-glb-2",
+      "back": "mercedes-benz-glb-3",
+      "alt": {
+        "uk": "Mercedes-Benz GLB Позашляховики",
+        "ru": "Mercedes-Benz GLB Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-Benz GLB Позашляховики фото",
+        "ru": "Mercedes-Benz GLB Внедорожники фото"
+      }
+    }
+  },
+  {
+    "group": ["all","eq-power"],
+    "type": "suv",
+    "title": {
+      "uk": "GLC-Class фото",
+      "ru": "GLC-Class фото"
+    },
+    "price": "41 334,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-glc-new",
+      "auxiliary": "prodazha-avtomobiley-glc-vnedorozhnik"
+    },
+    "image": {
+      "front": "mercedes-benz-glc-1",
+      "side": "mercedes-benz-glc-2",
+      "back": "mercedes-benz-glc-3",
+      "alt": {
+        "uk": "Mercedes-Benz GLC Позашляховики",
+        "ru": "Mercedes-Benz GLC Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-Benz GLC Позашляховики фото",
+        "ru": "Mercedes-Benz GLC Внедорожники фото"
+      }
+    }
+  },
+  {
+    "group": ["all","eq-power"],
+    "type": "suv",
+    "title": {
+      "uk": "GLE-Class фото",
+      "ru": "GLE-Class фото"
+    },
+    "price": "58 800,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-gle",
+      "auxiliary": "prodazha-avtomobiley-gle-vnedorozhnik"
+    },
+    "image": {
+      "front": "mercedes-benz-gle-1",
+      "side": "mercedes-benz-gle-2",
+      "back": "mercedes-benz-gle-3",
+      "alt": {
+        "uk": "Mercedes-Benz GLE Позашляховики",
+        "ru": "Mercedes-Benz GLE Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-Benz GLE Позашляховики фото",
+        "ru": "Mercedes-Benz GLE Внедорожники фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "suv",
+    "title": {
+      "uk": "GLS-Class фото",
+      "ru": "GLS-Class фото"
+    },
+    "price": "73 588,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-gls-new",
+      "auxiliary": "prodazha-avtomobiley-gls-vnedorozhnik"
+    },
+    "image": {
+      "front": "mercedes-benz-gls-1",
+      "side": "mercedes-benz-gls-2",
+      "back": "mercedes-benz-gls-3",
+      "alt": {
+        "uk": "Mercedes-Benz GLS Позашляховики",
+        "ru": "Mercedes-Benz GLS Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-Benz GLS Позашляховики фото",
+        "ru": "Mercedes-Benz GLS Внедорожники фото"
+      }
+    }
+  },
+  {
+    "group": ["all","maybach"],
+    "type": "suv",
+    "title": {
+      "uk": "Maybach GLS фото",
+      "ru": "Maybach GLS фото"
+    },
+    "price": "161 396,00",
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      }
+    },
+    "url": {
+      "main": "mercedes-maybach-gls",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-maybach-gls-1",
+      "side": "mercedes-maybach-gls-1",
+      "back": "mercedes-maybach-gls-1",
+      "alt": {
+        "uk": "Mercedes-Maybach GLS",
+        "ru": "Mercedes-Maybach GLS"
+      },
+      "title": {
+        "uk": "Mercedes-Maybach GLS фото",
+        "ru": "Mercedes-Maybach GLS фото"
+      }
+    }
+  },
+  {
+    "group": ["all","eq-power"],
+    "type": "suv",
+    "title": {
+      "uk": "GLC Купе фото",
+      "ru": "GLC Купе фото"
+    },
+    "price": "48 363,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-glc-coupe-new",
+      "auxiliary": "prodazha-avtomobiley-glc-coupe"
+    },
+    "image": {
+      "front": "mercedes-benz-glc-coupe-1",
+      "side": "mercedes-benz-glc-coupe-2",
+      "back": "mercedes-benz-glc-coupe-3",
+      "alt": {
+        "uk": "Mercedes-Benz GLC",
+        "ru": "Mercedes-Benz GLC"
+      },
+      "title": {
+        "uk": "Mercedes-Benz GLC фото",
+        "ru": "Mercedes-Benz GLC фото"
+      }
+    }
+  },
+  {
+    "group": ["all","eq-power"],
+    "type": "suv",
+    "title": {
+      "uk": "GLE Купе фото",
+      "ru": "GLE Купе фото"
+    },
+    "price": "66 778,00",
+    "labels": {
+      "hybrid": {
+        "uk": "Гібрид",
+        "ru": "Гибрид"
+      }
+    },
+    "url": {
+      "main": "mercedes-benz-gle-coupe",
+      "auxiliary": "prodazha-avtomobiley-gle-coupe"
+    },
+    "image": {
+      "front": "mercedes-benz-gle-coupe-1",
+      "side": "mercedes-benz-gle-coupe-2",
+      "back": "mercedes-benz-gle-coupe-3",
+      "alt": {
+        "uk": "Mercedes-Benz GLE",
+        "ru": "Mercedes-Benz GLE"
+      },
+      "title": {
+        "uk": "Mercedes-Benz GLE фото",
+        "ru": "Mercedes-Benz GLE фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "cabriolet",
+    "title": {
+      "uk": "C-Class Кабріолет фото",
+      "ru": "C-Class Кабриолет фото"
+    },
+    "price": "42 949,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-c-class-cabriolet",
+      "auxiliary": "prodazha-avtomobiley-c-class-cabriolet"
+    },
+    "image": {
+      "front": "mercedes-benz-c-class-cabriolet-1",
+      "side": "mercedes-benz-c-class-cabriolet-2",
+      "back": "mercedes-benz-c-class-cabriolet-3",
+      "alt": {
+        "uk": "Mercedes-Benz C-Class Кабріолет",
+        "ru": "Mercedes-Benz C-Class Кабриолет"
+      },
+      "title": {
+        "uk": "Mercedes-Benz C-Class Кабріолет фото",
+        "ru": "Mercedes-Benz C-Class Кабриолет фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "cabriolet",
+    "title": {
+      "uk": "E-Class Кабріолет фото",
+      "ru": "E-Class Кабриолет фото"
+    },
+    "price": "51 618,00",
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      }
+    },
+    "url": {
+      "main": "obzor-avtomobilya-e-class-cabriolet",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-e-class-cabriolet-1",
+      "side": "mercedes-benz-e-class-cabriolet-2",
+      "back": "mercedes-benz-e-class-cabriolet-3",
+      "alt": {
+        "uk": "Mercedes-Benz E-Class Кабріолет",
+        "ru": "Mercedes-Benz E-Class Кабриолет"
+      },
+      "title": {
+        "uk": "Mercedes-Benz E-Class Кабріолет фото",
+        "ru": "Mercedes-Benz E-Class Кабриолет фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "cabriolet",
+    "title": {
+      "uk": "S-Class Кабріолет фото",
+      "ru": "S-Class Кабриолет фото"
+    },
+    "price": "146 516,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-s-class-cabriolet",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-s-class-cabriolet-1",
+      "side": "mercedes-benz-s-class-cabriolet-2",
+      "back": "mercedes-benz-s-class-cabriolet-3",
+      "alt": {
+        "uk": "Mercedes-Benz S-Class Кабріолет",
+        "ru": "Mercedes-Benz S-Class Кабриолет"
+      },
+      "title": {
+        "uk": "Mercedes-Benz S-Class Кабріолет фото",
+        "ru": "Mercedes-Benz S-Class Кабриолет фото"
+      }
+    }
+  },
+  {
+    "group": ["all","amg"],
+    "type": "roadster",
+    "title": {
+      "uk": "AMG GT Родстер фото",
+      "ru": "AMG GT Родтсер фото"
+    },
+    "price": "139 292,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-amg-gt-roadster",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-gt-roadster-1",
+      "side": "mercedes-amg-gt-roadster-2",
+      "back": "mercedes-amg-gt-roadster-3",
+      "alt": {
+        "uk": "Mercedes-AMG GT-Rodster",
+        "ru": "Mercedes-AMG GT-Rodster"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GT-Rodster фото",
+        "ru": "Mercedes-AMG GT-Rodster фото"
+      }
+    }
+  },
+  {
+    "group": ["all","eq-power"],
+    "type": "minivan",
+    "title": {
+      "uk": "EQV мінівен фото",
+      "ru": "EQV минивен фото"
+    },
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      },
+      "hybrid": {
+        "uk": "Електромобіль",
+        "ru": "Єлектромобиль"
+      }
+
+    },
+    "url": {
+      "main": "mercedes-benz-eqv",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-benz-eqv-class-1",
+      "side": "mercedes-benz-eqv-class-1",
+      "back": "mercedes-benz-eqv-class-1",
+      "alt": {
+        "uk": "Mercedes-Benz EQV",
+        "ru": "Mercedes-Benz EQV"
+      },
+      "title": {
+        "uk": "Mercedes-Benz EQV фото",
+        "ru": "Mercedes-Benz EQV фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "minivan",
+    "title": {
+      "uk": "V-Class мінівен фото",
+      "ru": "V-Class минивен фото"
+    },
+    "price": "44 737,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-v-class-new",
+      "auxiliary": "prodazha-avtomobiley-v-class"
+    },
+    "image": {
+      "front": "mercedes-benz-v-class-1",
+      "side": "mercedes-benz-v-class-1",
+      "back": "mercedes-benz-v-class-1",
+      "alt": {
+        "uk": "Mercedes-Benz V-Class",
+        "ru": "Mercedes-Benz V-Class"
+      },
+      "title": {
+        "uk": "Mercedes-Benz V-Class фото",
+        "ru": "Mercedes-Benz V-Class фото"
+      }
+    }
+  },
+  {
+    "group": ["all"],
+    "type": "minivan",
+    "title": {
+      "uk": "Vito Tourer мінівен фото",
+      "ru": "Vito Tourer минивен фото"
+    },
+    "price": "26 800,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-vito-tourer",
+      "auxiliary": "prodazha-avtomobiley-mercedes-benz-vito-tourer"
+    },
+    "image": {
+      "front": "mercedes-benz-vito-tourer-1",
+      "side": "mercedes-benz-vito-tourer-1",
+      "back": "mercedes-benz-vito-tourer-1",
+      "alt": {
+        "uk": "Mercedes-Benz Vito Tourer",
+        "ru": "Mercedes-Benz Vito Tourer"
+      },
+      "title": {
+        "uk": "Mercedes-Benz Vito Tourer фото",
+        "ru": "Mercedes-Benz Vito Tourer фото"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "hatchback",
+    "title": {
+      "uk": "AMG A-Class Седани",
+      "ru": "AMG A-Class Седаны"
+    },
+    "price": "47 457,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-a-class-hetchbek",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-a-class-hatchback-1",
+      "side": "mercedes-amg-a-class-hatchback-2",
+      "back": "mercedes-amg-a-class-hatchback-3",
+      "alt": {
+        "uk": "Mercedes–AMG A–Class Хетчбек",
+        "ru": "Mercedes–AMG A–Class Хэтчбек"
+      },
+      "title": {
+        "uk": "Mercedes–AMG A–Class Хетчбек",
+        "ru": "Mercedes–AMG A–Class Хэтчбек"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "t-model",
+    "title": {
+      "uk": "AMG C-Class універсали",
+      "ru": "AMG C-Class универсалы"
+    },
+    "price": "52 762,00",
+    "labels": {
+
+    },
+    "url": {
+      "main": "obzor-avtomobilya-c-class-t-modell",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-c-class-t-model-1",
+      "side": "mercedes-amg-c-class-t-model-2",
+      "back": "mercedes-amg-c-class-t-model-3",
+      "alt": {
+        "uk": "Mercedes–AMG B–Class Універсал",
+        "ru": "Mercedes–AMG B–Class Универсал"
+      },
+      "title": {
+        "uk": "Mercedes–AMG B–Class Універсал",
+        "ru": "Mercedes–AMG B–Class Универсал"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "t-model",
+    "title": {
+      "uk": "AMG E-Class універсали",
+      "ru": "AMG E-Class универсалы"
+    },
+    "price": "70 974,00",
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      }
+    },
+    "url": {
+      "main": "mercedes-amg-e-class-t-modell",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-e-class-t-model-1",
+      "side": "mercedes-amg-e-class-t-model-2",
+      "back": "mercedes-amg-e-class-t-model-3",
+      "alt": {
+        "uk": "Mercedes–AMG B–Class Універсал",
+        "ru": "Mercedes–AMG B–Class Универсал"
+      },
+      "title": {
+        "uk": "Mercedes–AMG B–Class Універсал",
+        "ru": "Mercedes–AMG B–Class Универсал"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "t-model",
+    "title": {
+      "uk": "AMG CLA Shooting Brake",
+      "ru": "AMG CLA Shooting Brake"
+    },
+    "price": "48 042,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-cla-shooting-brake",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-cla-shooting-brake-1",
+      "side": "mercedes-amg-cla-shooting-brake-2",
+      "back": "mercedes-amg-cla-shooting-brake-3",
+      "alt": {
+        "uk": "AMG CLA Shooting Brake Універсал",
+        "ru": "AMG CLA Shooting Brake Универсал"
+      },
+      "title": {
+        "uk": "AMG CLA Shooting Brake Універсал",
+        "ru": "AMG CLA Shooting Brake Универсал"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "sedan",
+    "title": {
+      "uk": "AMG A-Class лімузин",
+      "ru": "AMG A-Class лимузин"
+    },
+    "price": "48 208,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-a-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-a-class-limousine-1",
+      "side": "mercedes-amg-a-class-limousine-2",
+      "back": "mercedes-amg-a-class-limousine-3",
+      "alt": {
+        "uk": "Mercedes–AMG B–Class Лімузин",
+        "ru": "Mercedes–AMG B–Class Лимузин"
+      },
+      "title": {
+        "uk": "Mercedes–AMG B–Class Лімузин",
+        "ru": "Mercedes–AMG B–Class Лимузин"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "sedan",
+    "title": {
+      "uk": "AMG C-Class лімузин",
+      "ru": "AMG C-Class лимузин"
+    },
+    "price": "52 246,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-c-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-c-class-limousine-1",
+      "side": "mercedes-amg-c-class-limousine-2",
+      "back": "mercedes-amg-c-class-limousine-3",
+      "alt": {
+        "uk": "Mercedes–AMG C–Class Лімузин",
+        "ru": "Mercedes–AMG C–Class Лимузин"
+      },
+      "title": {
+        "uk": "Mercedes–AMG C–Class Лімузин",
+        "ru": "Mercedes–AMG C–Class Лимузин"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "sedan",
+    "title": {
+      "uk": "AMG E-Class лімузин",
+      "ru": "AMG E-Class лимузин"
+    },
+    "price": "68 692,00",
+    "labels": {
+      "new": {
+        "uk": "Новий",
+        "ru": "Новый"
+      }
+    },
+    "url": {
+      "main": "mercedes-amg-e-class",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-e-class-limousine-1",
+      "side": "mercedes-amg-e-class-limousine-2",
+      "back": "mercedes-amg-e-class-limousine-3",
+      "alt": {
+        "uk": "Mercedes–AMG E–Class Лімузин",
+        "ru": "Mercedes–AMG E–Class Лимузин"
+      },
+      "title": {
+        "uk": "Mercedes–AMG E–Class Лімузин",
+        "ru": "Mercedes–AMG E–Class Лимузин"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "sedan",
+    "title": {
+      "uk": "AMG S-Class лімузин",
+      "ru": "AMG S-Class лимузин"
+    },
+    "price": "139 185,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-s-class-limousine",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-s-class-limousine-1",
+      "side": "mercedes-amg-s-class-limousine-2",
+      "back": "mercedes-amg-s-class-limousine-3",
+      "alt": {
+        "uk": "Mercedes–AMG S–Class Лімузин",
+        "ru": "Mercedes–AMG S–Class Лимузин"
+      },
+      "title": {
+        "uk": "Mercedes–AMG S–Class Лімузин",
+        "ru": "Mercedes–AMG S–Class Лимузин"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "coupe",
+    "title": {
+      "uk": "AMG C-Class купе",
+      "ru": "AMG C-Class купе"
+    },
+    "price": "58 074,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-c-class-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-c-class-coupe-1",
+      "side": "mercedes-amg-c-class-coupe-2",
+      "back": "mercedes-amg-c-class-coupe-3",
+      "alt": {
+        "uk": "Mercedes–AMG C–Class Купе",
+        "ru": "Mercedes–AMG C–Class Купе"
+      },
+      "title": {
+        "uk": "Mercedes–AMG C–Class Купе",
+        "ru": "Mercedes–AMG C–Class Купе"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "coupe",
+    "title": {
+      "uk": "AMG E-Class купе",
+      "ru": "AMG E-Class купе"
+    },
+    "price": "76 165,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-e-class-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-e-class-coupe-1",
+      "side": "mercedes-amg-e-class-coupe-2",
+      "back": "mercedes-amg-e-class-coupe-3",
+      "alt": {
+        "uk": "Mercedes–AMG E–Class Купе",
+        "ru": "Mercedes–AMG E–Class Купе"
+      },
+      "title": {
+        "uk": "Mercedes–AMG E–Class Купе",
+        "ru": "Mercedes–AMG E–Class Купе"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "coupe",
+    "title": {
+      "uk": "AMG S-Class купе",
+      "ru": "AMG S-Class купе"
+    },
+    "price": "182 701,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-s-class-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-s-class-coupe-1",
+      "side": "mercedes-amg-s-class-coupe-2",
+      "back": "mercedes-amg-s-class-coupe-3",
+      "alt": {
+        "uk": "Mercedes–AMG S–Class Купе",
+        "ru": "Mercedes–AMG S–Class Купе"
+      },
+      "title": {
+        "uk": "Mercedes–AMG S–Class Купе",
+        "ru": "Mercedes–AMG S–Class Купе"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "coupe",
+    "title": {
+      "uk": "AMG CLA купе",
+      "ru": "AMG CLA купе"
+    },
+    "price": "47 510,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-cla-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-cla-coupe-1",
+      "side": "mercedes-amg-cla-coupe-2",
+      "back": "mercedes-amg-cla-coupe-3",
+      "alt": {
+        "uk": "Mercedes–AMG CLA Купе",
+        "ru": "Mercedes–AMG CLA Купе"
+      },
+      "title": {
+        "uk": "Mercedes–AMG CLA Купе",
+        "ru": "Mercedes–AMG CLA Купе"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "coupe",
+    "title": {
+      "uk": "AMG CLS купе",
+      "ru": "AMG CLS купе"
+    },
+    "price": "86 594,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-cls-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-cls-coupe-1",
+      "side": "mercedes-amg-cls-coupe-2",
+      "back": "mercedes-amg-cls-coupe-3",
+      "alt": {
+        "uk": "Mercedes–AMG CLS Купе",
+        "ru": "Mercedes–AMG CLS Купе"
+      },
+      "title": {
+        "uk": "Mercedes–AMG CLS Купе",
+        "ru": "Mercedes–AMG CLS Купе"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "suv",
+    "title": {
+      "uk": "AMG GLA-Class",
+      "ru": "AMG GLA-Class"
+    },
+    "price": "0",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-benz-gla",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-gla-class-1",
+      "side": "mercedes-amg-gla-class-2",
+      "back": "mercedes-amg-gla-class-3",
+      "alt": {
+        "uk": "Mercedes-AMG GLA-Class Позашляховики",
+        "ru": "Mercedes-AMG GLA-Class Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GLA-Class Позашляховики",
+        "ru": "Mercedes-AMG GLA-Class Внедорожники"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "suv",
+    "title": {
+      "uk": "AMG GLB-Class",
+      "ru": "AMG GLB-Class"
+    },
+    "price": "46 828,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-glb",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-glb-class-1",
+      "side": "mercedes-amg-glb-class-2",
+      "back": "mercedes-amg-glb-class-3",
+      "alt": {
+        "uk": "Mercedes-AMG GLB-Class Позашляховики",
+        "ru": "Mercedes-AMG GLB-Class Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GLB-Class Позашляховики",
+        "ru": "Mercedes-AMG GLB-Class Внедорожники"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "suv",
+    "title": {
+      "uk": "AMG GLC-Class",
+      "ru": "AMG GLC-Class"
+    },
+    "price": "58 279,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-glc-new",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-glc-class-1",
+      "side": "mercedes-amg-glc-class-2",
+      "back": "mercedes-amg-glc-class-3",
+      "alt": {
+        "uk": "Mercedes-AMG GLC-Class Позашляховики",
+        "ru": "Mercedes-AMG GLC-Class Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GLC-Class Позашляховики",
+        "ru": "Mercedes-AMG GLC-Class Внедорожники"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "suv",
+    "title": {
+      "uk": "AMG GLE-Class",
+      "ru": "AMG GLE-Class"
+    },
+    "price": "74 889,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-gle",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-gle-class-1",
+      "side": "mercedes-amg-gle-class-2",
+      "back": "mercedes-amg-gle-class-3",
+      "alt": {
+        "uk": "Mercedes-AMG GLE-Class Позашляховики",
+        "ru": "Mercedes-AMG GLE-Class Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GLE-Class Позашляховики",
+        "ru": "Mercedes-AMG GLE-Class Внедорожники"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "suv",
+    "title": {
+      "uk": "AMG GLS-Class",
+      "ru": "AMG GLS-Class"
+    },
+    "price": "133 779,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-gls-new",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-gls-class-1",
+      "side": "mercedes-amg-gls-class-2",
+      "back": "mercedes-amg-gls-class-3",
+      "alt": {
+        "uk": "Mercedes-AMG GLS-Class Позашляховики",
+        "ru": "Mercedes-AMG GLS-Class Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GLS-Class Позашляховики",
+        "ru": "Mercedes-AMG GLS-Class Внедорожники"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "suv",
+    "title": {
+      "uk": "AMG G-Class",
+      "ru": "AMG G-Class"
+    },
+    "price": "170 075,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-g63",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-g-class-1",
+      "side": "mercedes-amg-g-class-2",
+      "back": "mercedes-amg-g-class-3",
+      "alt": {
+        "uk": "Mercedes-AMG G-Class Позашляховики",
+        "ru": "Mercedes-AMG G-Class Внедорожники"
+      },
+      "title": {
+        "uk": "Mercedes-AMG G-Class Позашляховики",
+        "ru": "Mercedes-AMG G-Class Внедорожники"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "suv",
+    "title": {
+      "uk": "AMG GLC Купе",
+      "ru": "AMG GLC Купе"
+    },
+    "price": "65 858,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-glc-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-glc-coupe-1",
+      "side": "mercedes-amg-glc-coupe-2",
+      "back": "mercedes-amg-glc-coupe-3",
+      "alt": {
+        "uk": "Mercedes-AMG GLC Купе",
+        "ru": "Mercedes-AMG GLC Купе"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GLC Купе",
+        "ru": "Mercedes-AMG GLC Купе"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "suv",
+    "title": {
+      "uk": "AMG GLE Купе",
+      "ru": "AMG GLE Купе"
+    },
+    "price": "80 561,00",
+    "labels": {
+    },
+    "url": {
+      "main": "mercedes-amg-gle-coupe",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-gle-coupe-1",
+      "side": "mercedes-amg-gle-coupe-2",
+      "back": "mercedes-amg-gle-coupe-3",
+      "alt": {
+        "uk": "Mercedes-AMG GLE Купе",
+        "ru": "Mercedes-AMG GLE Купе"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GLE Купе",
+        "ru": "Mercedes-AMG GLE Купе"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "cabriolet",
+    "title": {
+      "uk": "AMG C-Class Кабріолет",
+      "ru": "AMG C-Class Кабриолет"
+    },
+    "price": "63 011,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-c-class-cabriolet",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-c-class-cabriolet-1",
+      "side": "mercedes-amg-c-class-cabriolet-2",
+      "back": "mercedes-amg-c-class-cabriolet-3",
+      "alt": {
+        "uk": "Mercedes-AMG C-Class Кабріолет",
+        "ru": "Mercedes-AMG C-Class Кабриолет"
+      },
+      "title": {
+        "uk": "Mercedes-AMG C-Class Кабріолет",
+        "ru": "Mercedes-AMG C-Class Кабриолет"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "cabriolet",
+    "title": {
+      "uk": "AMG E-Class Кабріолет",
+      "ru": "AMG E-Class Кабриолет"
+    },
+    "price": "79 221,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-e-class-cabriolet",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-e-class-cabriolet-1",
+      "side": "mercedes-amg-e-class-cabriolet-2",
+      "back": "mercedes-amg-e-class-cabriolet-3",
+      "alt": {
+        "uk": "Mercedes-AMG E-Class Кабріолет",
+        "ru": "Mercedes-AMG E-Class Кабриолет"
+      },
+      "title": {
+        "uk": "Mercedes-AMG E-Class Кабріолет",
+        "ru": "Mercedes-AMG E-Class Кабриолет"
+      }
+    }
+  },
+  {
+    "group": ["amg"],
+    "type": "cabriolet",
+    "title": {
+      "uk": "AMG S-Class Кабріолет",
+      "ru": "AMG S-Class Кабриолет"
+    },
+    "price": "195 413,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-s-class-cabriolet",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "mercedes-amg-s-class-cabriolet-1",
+      "side": "mercedes-amg-s-class-cabriolet-2",
+      "back": "mercedes-amg-s-class-cabriolet-3",
+      "alt": {
+        "uk": "Mercedes-AMG S-Class Кабріолет",
+        "ru": "Mercedes-AMG S-Class Кабриолет"
+      },
+      "title": {
+        "uk": "Mercedes-AMG S-Class Кабріолет",
+        "ru": "Mercedes-AMG S-Class Кабриолет"
+      }
+    }
+  },
+  {
+    "group": ["all","amg"],
+    "type": "roadster",
+    "title": {
+      "uk": "AMG GT Родстер",
+      "ru": "AMG GT Родстер"
+    },
+    "price": "139 292,00",
+    "labels": {
+    },
+    "url": {
+      "main": "obzor-avtomobilya-amg-gt-roadster",
+      "auxiliary": ""
+    },
+    "image": {
+      "front": "amg-gt-roadster-1",
+      "side": "amg-gt-roadster-2",
+      "back": "amg-gt-roadster-3",
+      "alt": {
+        "uk": "Mercedes-AMG GT Родстер",
+        "ru": "Mercedes-AMG GT Родстер"
+      },
+      "title": {
+        "uk": "Mercedes-AMG GT Родстер",
+        "ru": "Mercedes-AMG GT Родстер"
+      }
+    }
+  }
+]

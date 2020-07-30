@@ -1,10 +1,10 @@
-import classNames from '../../../classNames'
+import classNames from '../classNames'
 
 export default ({ title, icon, type, checked }) => {
   return `
     <label class="type-button">
       <input
-        class="${classNames.tabs.typeBtn}"
+        class="${classNames.typeBtn}"
         type="radio"
         value="${type}"
         name="type-names"

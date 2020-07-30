@@ -1,6 +1,6 @@
 import TabsButton from './htmlComponents/TabsButton'
 import { LANGUAGE } from './constants'
-import classNames from '../../classNames'
+import classNames from './classNames'
 
 export default function renderTabsButtons() {
   const {
@@ -46,7 +46,7 @@ export default function renderTabsButtons() {
   const getButtonsTemplate = stringifyList(groups)
 
   this.tabsButtonsWraper.innerHTML = `
-      <div class="tabs-select ${classNames.tabs.select}">
+      <div class="tabs-select ${classNames.select}">
         <button type="button" class="tabs-select__opener">${activeButtonText}</button>
         <ul class="tabs-select__panel">
           ${getButtonsTemplate}

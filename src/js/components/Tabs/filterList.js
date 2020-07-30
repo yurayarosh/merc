@@ -3,10 +3,26 @@ import { CURRENCY_INDEX, LANGUAGE } from './constants'
 export default function filterList(props = {}) {
   const { group = 'all', type } = props
 
-  const setFirstOfType = (item, i) => (i === 0 ? { ...item, isFirstOfType: true } : item)
-
   const getTypesNames = list =>
     list.length > 0 ? [...new Set([...list].map(({ type: t }) => t))] : []
+
+  const setFirstOfType = (item, i) => (i === 0 ? { ...item, isFirstOfType: true } : item)
+  const resetFirstOfType = item => ({ ...item, isFirstOfType: false })
+
+  const getFilteredByTypeList = (filteredList, filterCallback) => {
+    const typesNames = getTypesNames(filteredList)
+    const sortedByType = []
+
+    typesNames.forEach(typeName => {
+      const sublist = [...filteredList]
+        .filter(filterCallback.bind(null, typeName))
+        .map(setFirstOfType)
+
+      sortedByType.push(...sublist)
+    })
+
+    return sortedByType
+  }
 
   const getSortedList = originList => {
     const getListWithCurrencyField = list => {
@@ -52,32 +68,14 @@ export default function filterList(props = {}) {
     }
 
     const getSortedOriginList = list => {
-      const typesNames = getTypesNames(list)
-      const sortedByType = []
-
-      typesNames.forEach(typeName => {
-        const sublist = [...list]
-          .filter(({ isRecommended, type: t }) => t === typeName && !isRecommended)
-          .map(setFirstOfType)
-
-        sortedByType.push(...sublist)
-      })
-
-      return sortedByType
+      return getFilteredByTypeList(
+        list,
+        (typeName, { isRecommended, type: t }) => t === typeName && !isRecommended
+      )
     }
 
     const getSortedRecommendedItems = list => {
-      const typesNames = getTypesNames(list)
-
-      const sortedByType = []
-
-      typesNames.forEach(typeName => {
-        const sublist = [...list].filter(({ type: t }) => t === typeName)
-
-        sortedByType.push(...sublist)
-      })
-
-      return sortedByType
+      return getFilteredByTypeList(list, (typeName, { type: t }) => t === typeName)
     }
 
     const recommendedItems = getListWithCurrencyField(originList)
@@ -108,7 +106,14 @@ export default function filterList(props = {}) {
   let sortedList = getSortedList(filteredList)
 
   if (this.options.filter === 'available') {
-    sortedList = sortedList.filter(({ url: { auxiliary } }) => auxiliary)
+    const filteredByAvailable = sortedList
+      .filter(({ url: { auxiliary } }) => auxiliary)
+      .map(resetFirstOfType)
+
+    sortedList = getFilteredByTypeList(
+      filteredByAvailable,
+      (typeName, { type: t }) => t === typeName
+    )
   }
 
   this.updateStore({

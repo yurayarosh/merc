@@ -30,9 +30,7 @@ import {
   FETCHED_TRANSLATIONS_URL,
   QUERY_TYPE,
 } from './constants'
-import classes from '../../classNames'
-
-const { tabs: classNames } = classes
+import classNames from './classNames'
 
 export default class Tabs {
   constructor(wrap) {

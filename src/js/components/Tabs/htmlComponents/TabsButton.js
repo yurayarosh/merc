@@ -1,4 +1,4 @@
-import classNames from '../../../classNames'
+import classNames from '../classNames'
 import { iconAmg, iconMaybach, iconEQPower } from '../icons'
 
 export default ({ isActive, title, group }) => {
@@ -19,7 +19,7 @@ export default ({ isActive, title, group }) => {
   }
 
   return `<button
-    class="tabs__tab${isActive ? ' tabs__tab--current' : ''} ${classNames.tabs.tab}"
+    class="tabs__tab${isActive ? ' tabs__tab--current' : ''} ${classNames.tab}"
     type="button"
     data-filter="${group}"
   >${icon || title}</button>
