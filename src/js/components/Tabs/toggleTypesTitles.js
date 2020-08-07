@@ -1,7 +1,7 @@
 export default function toggleTypesTitles() {
   if (!this.typesTitles || !this.typesTitles.length) return
 
-  const getTitleNode = () => this.wrap.querySelector('.tabs__tabs-type-title')
+  const getTitleNode = () => this.wrap.querySelector('.models-tabs__tabs-type-title')
 
   const activeTitles = []
 

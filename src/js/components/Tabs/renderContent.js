@@ -15,7 +15,7 @@ export default function renderContent(state = { sliceList: false }) {
               return `
               ${
                 isFirstOfType
-                  ? `<div class="tabs__group-title">${
+                  ? `<div class="models-tabs__group-title">${
                       isRecommended ? types.recommended[LANGUAGE] : types[type][LANGUAGE]
                     }</div>`
                   : ''
@@ -28,6 +28,7 @@ export default function renderContent(state = { sliceList: false }) {
                 image,
                 type,
                 labels,
+                reverseLinks: this.reverseCardsLinks,
               })}
               `
             })
@@ -61,7 +62,7 @@ export default function renderContent(state = { sliceList: false }) {
 
       if (!this.options.isSimple) this.pushUrl()
 
-      this.typesTitles = [...document.querySelectorAll('.tabs__group-title')]
+      this.typesTitles = [...document.querySelectorAll('.models-tabs__group-title')]
 
       resolve()
     }

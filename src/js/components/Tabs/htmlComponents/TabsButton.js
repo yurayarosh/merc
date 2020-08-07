@@ -19,7 +19,7 @@ export default ({ isActive, title, group }) => {
   }
 
   return `<button
-    class="tabs__tab${isActive ? ' tabs__tab--current' : ''} ${classNames.tab}"
+    class="models-tabs__tab${isActive ? ' models-tabs__tab--current' : ''} ${classNames.tab}"
     type="button"
     data-filter="${group}"
   >${icon || title}</button>

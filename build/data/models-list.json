@@ -3,8 +3,8 @@
     "group": ["all", "eq-power"],
     "type": "hatchback",
     "title": {
-      "uk": "A–Class Седани фото",
-      "ru": "A–Class Седаны фото"
+      "uk": "A–Class Седани",
+      "ru": "A–Class Седаны"
     },
     "price": "29 710,00",
     "labels": {
@@ -35,8 +35,8 @@
     "group": ["all", "eq-power"],
     "type": "hatchback",
     "title": {
-      "uk": "B–Class Седани фото",
-      "ru": "B–Class Седаны фото"
+      "uk": "B–Class Седани",
+      "ru": "B–Class Седаны"
     },
     "price": "29 964,00",
     "labels": {
@@ -67,8 +67,8 @@
     "group": ["all", "eq-power"],
     "type": "t-model",
     "title": {
-      "uk": "C-Class універсали фото",
-      "ru": "C-Class универсалы фото"
+      "uk": "C-Class універсали",
+      "ru": "C-Class универсалы"
     },
     "price": "30 165,00",
     "labels": {
@@ -99,8 +99,8 @@
     "group": ["all", "eq-power"],
     "type": "t-model",
     "title": {
-      "uk": "E-Class універсали фото",
-      "ru": "E-Class универсалы фото"
+      "uk": "E-Class універсали",
+      "ru": "E-Class универсалы"
     },
     "price": "42 035,00",
     "labels": {
@@ -135,8 +135,8 @@
     "group": ["all", "eq-power"],
     "type": "t-model",
     "title": {
-      "uk": "CLA Shooting Brake фото",
-      "ru": "CLA Shooting Brake фото"
+      "uk": "CLA Shooting Brake",
+      "ru": "CLA Shooting Brake"
     },
     "price": "32 939,00",
     "labels": {
@@ -167,8 +167,8 @@
     "group": ["all", "eq-power"],
     "type": "sedan",
     "title": {
-      "uk": "A-Class Седани фото",
-      "ru": "A-Class Седаны фото"
+      "uk": "A-Class Седани",
+      "ru": "A-Class Седаны"
     },
     "price": "28 975,00",
     "labels": {
@@ -199,8 +199,8 @@
     "group": ["all", "eq-power"],
     "type": "sedan",
     "title": {
-      "uk": "C-Class Седани фото",
-      "ru": "C-Class Седаны фото"
+      "uk": "C-Class Седани",
+      "ru": "C-Class Седаны"
     },
     "price": "30 666,00",
     "labels": {
@@ -231,8 +231,8 @@
     "group": ["all", "eq-power"],
     "type": "sedan",
     "title": {
-      "uk": "E-Class Седани фото",
-      "ru": "E-Class Седаны фото"
+      "uk": "E-Class Седани",
+      "ru": "E-Class Седаны"
     },
     "price": "39 229,00",
     "labels": {
@@ -267,8 +267,8 @@
     "group": ["all"],
     "type": "sedan",
     "title": {
-      "uk": "S-Class Седани фото",
-      "ru": "S-Class Седаны фото"
+      "uk": "S-Class Седани",
+      "ru": "S-Class Седаны"
     },
     "price": "78 332,00",
     "labels": {
@@ -295,8 +295,8 @@
     "group": ["all","maybach"],
     "type": "sedan",
     "title": {
-      "uk": "Maybach S-Class Седани фото",
-      "ru": "Maybach S-Class Седаны фото"
+      "uk": "Maybach S-Class Седани",
+      "ru": "Maybach S-Class Седаны"
     },
     "price": "145 308,00",
     "labels": {
@@ -323,8 +323,8 @@
     "group": ["all"],
     "type": "coupe",
     "title": {
-      "uk": "С-Class Купе фото",
-      "ru": "С-Class Купе фото"
+      "uk": "С-Class Купе",
+      "ru": "С-Class Купе"
     },
     "price": "37 472,00",
     "labels": {
@@ -351,8 +351,8 @@
     "group": ["all"],
     "type": "coupe",
     "title": {
-      "uk": "E-Class Купе фото",
-      "ru": "E-Class Купе фото"
+      "uk": "E-Class Купе",
+      "ru": "E-Class Купе"
     },
     "price": "47 821,00",
     "labels": {
@@ -383,8 +383,8 @@
     "group": ["all"],
     "type": "coupe",
     "title": {
-      "uk": "S-Class Купе фото",
-      "ru": "S-Class Купе фото"
+      "uk": "S-Class Купе",
+      "ru": "S-Class Купе"
     },
     "price": "107 200,00",
     "labels": {
@@ -411,8 +411,8 @@
     "group": ["all","eq-power"],
     "type": "coupe",
     "title": {
-      "uk": "CLA Купе фото",
-      "ru": "CLA Купе фото"
+      "uk": "CLA Купе",
+      "ru": "CLA Купе"
     },
     "price": "32 279,00",
     "labels": {
@@ -443,8 +443,8 @@
     "group": ["all"],
     "type": "coupe",
     "title": {
-      "uk": "CLS Купе фото",
-      "ru": "CLS Купе фото"
+      "uk": "CLS Купе",
+      "ru": "CLS Купе"
     },
     "price": "59 961,00",
     "labels": {
@@ -471,8 +471,8 @@
     "group": ["all","amg"],
     "type": "coupe",
     "title": {
-      "uk": "AMG GT Купе фото",
-      "ru": "AMG GT Купе фото"
+      "uk": "AMG GT Купе",
+      "ru": "AMG GT Купе"
     },
     "price": "136 860,00",
     "labels": {
@@ -499,8 +499,8 @@
     "group": ["all","amg"],
     "type": "coupe",
     "title": {
-      "uk": "AMG GT 4-door Купе фото",
-      "ru": "AMG GT 4-door Купе фото"
+      "uk": "AMG GT 4-door Купе",
+      "ru": "AMG GT 4-door Купе"
     },
     "price": "105 347,00",
     "labels": {
@@ -527,8 +527,8 @@
     "group": ["all","eq-power"],
     "type": "suv",
     "title": {
-      "uk": "EQC фото",
-      "ru": "EQC фото"
+      "uk": "EQC",
+      "ru": "EQC"
     },
     "labels": {
       "hybrid": {
@@ -558,8 +558,8 @@
     "group": ["all"],
     "type": "suv",
     "title": {
-      "uk": "G-Class фото",
-      "ru": "G-Class фото"
+      "uk": "G-Class",
+      "ru": "G-Class"
     },
     "price": "136 860,00",
     "labels": {
@@ -586,8 +586,8 @@
     "group": ["all","eq-power"],
     "type": "suv",
     "title": {
-      "uk": "GLA-Class фото",
-      "ru": "GLA-Class фото"
+      "uk": "GLA-Class",
+      "ru": "GLA-Class"
     },
     "price": "30 915,00",
     "labels": {
@@ -598,7 +598,7 @@
     },
     "url": {
       "main": "mercedes-benz-gla",
-      "auxiliary": ""
+      "auxiliary": "prodazha-avtomobiley-gla-vnedorozhnik"
     },
     "image": {
       "front": "mercedes-benz-gla-1",
@@ -618,8 +618,8 @@
     "group": ["all"],
     "type": "suv",
     "title": {
-      "uk": "GLB-Class фото",
-      "ru": "GLB-Class фото"
+      "uk": "GLB-Class",
+      "ru": "GLB-Class"
     },
     "price": "33 610,00",
     "labels": {
@@ -646,8 +646,8 @@
     "group": ["all","eq-power"],
     "type": "suv",
     "title": {
-      "uk": "GLC-Class фото",
-      "ru": "GLC-Class фото"
+      "uk": "GLC-Class",
+      "ru": "GLC-Class"
     },
     "price": "41 334,00",
     "labels": {
@@ -678,8 +678,8 @@
     "group": ["all","eq-power"],
     "type": "suv",
     "title": {
-      "uk": "GLE-Class фото",
-      "ru": "GLE-Class фото"
+      "uk": "GLE-Class",
+      "ru": "GLE-Class"
     },
     "price": "58 800,00",
     "labels": {
@@ -710,8 +710,8 @@
     "group": ["all"],
     "type": "suv",
     "title": {
-      "uk": "GLS-Class фото",
-      "ru": "GLS-Class фото"
+      "uk": "GLS-Class",
+      "ru": "GLS-Class"
     },
     "price": "73 588,00",
     "labels": {
@@ -738,8 +738,8 @@
     "group": ["all","maybach"],
     "type": "suv",
     "title": {
-      "uk": "Maybach GLS фото",
-      "ru": "Maybach GLS фото"
+      "uk": "Maybach GLS",
+      "ru": "Maybach GLS"
     },
     "price": "161 396,00",
     "labels": {
@@ -770,8 +770,8 @@
     "group": ["all","eq-power"],
     "type": "suv",
     "title": {
-      "uk": "GLC Купе фото",
-      "ru": "GLC Купе фото"
+      "uk": "GLC Купе",
+      "ru": "GLC Купе"
     },
     "price": "48 363,00",
     "labels": {
@@ -802,8 +802,8 @@
     "group": ["all","eq-power"],
     "type": "suv",
     "title": {
-      "uk": "GLE Купе фото",
-      "ru": "GLE Купе фото"
+      "uk": "GLE Купе",
+      "ru": "GLE Купе"
     },
     "price": "66 778,00",
     "labels": {
@@ -834,8 +834,8 @@
     "group": ["all"],
     "type": "cabriolet",
     "title": {
-      "uk": "C-Class Кабріолет фото",
-      "ru": "C-Class Кабриолет фото"
+      "uk": "C-Class Кабріолет",
+      "ru": "C-Class Кабриолет"
     },
     "price": "42 949,00",
     "labels": {
@@ -862,8 +862,8 @@
     "group": ["all"],
     "type": "cabriolet",
     "title": {
-      "uk": "E-Class Кабріолет фото",
-      "ru": "E-Class Кабриолет фото"
+      "uk": "E-Class Кабріолет",
+      "ru": "E-Class Кабриолет"
     },
     "price": "51 618,00",
     "labels": {
@@ -894,8 +894,8 @@
     "group": ["all"],
     "type": "cabriolet",
     "title": {
-      "uk": "S-Class Кабріолет фото",
-      "ru": "S-Class Кабриолет фото"
+      "uk": "S-Class Кабріолет",
+      "ru": "S-Class Кабриолет"
     },
     "price": "146 516,00",
     "labels": {
@@ -922,8 +922,8 @@
     "group": ["all","amg"],
     "type": "roadster",
     "title": {
-      "uk": "AMG GT Родстер фото",
-      "ru": "AMG GT Родтсер фото"
+      "uk": "AMG GT Родстер",
+      "ru": "AMG GT Родтсер"
     },
     "price": "139 292,00",
     "labels": {
@@ -950,8 +950,8 @@
     "group": ["all","eq-power"],
     "type": "minivan",
     "title": {
-      "uk": "EQV мінівен фото",
-      "ru": "EQV минивен фото"
+      "uk": "EQV мінівен",
+      "ru": "EQV минивен"
     },
     "labels": {
       "new": {
@@ -986,8 +986,8 @@
     "group": ["all"],
     "type": "minivan",
     "title": {
-      "uk": "V-Class мінівен фото",
-      "ru": "V-Class минивен фото"
+      "uk": "V-Class мінівен",
+      "ru": "V-Class минивен"
     },
     "price": "44 737,00",
     "labels": {
@@ -1014,8 +1014,8 @@
     "group": ["all"],
     "type": "minivan",
     "title": {
-      "uk": "Vito Tourer мінівен фото",
-      "ru": "Vito Tourer минивен фото"
+      "uk": "Vito Tourer мінівен",
+      "ru": "Vito Tourer минивен"
     },
     "price": "26 800,00",
     "labels": {
@@ -1061,8 +1061,8 @@
         "ru": "Mercedes–AMG A–Class Хэтчбек"
       },
       "title": {
-        "uk": "Mercedes–AMG A–Class Хетчбек",
-        "ru": "Mercedes–AMG A–Class Хэтчбек"
+        "uk": "Mercedes–AMG A–Class Хетчбек фото",
+        "ru": "Mercedes–AMG A–Class Хэтчбек фото"
       }
     }
   },
@@ -1090,8 +1090,8 @@
         "ru": "Mercedes–AMG B–Class Универсал"
       },
       "title": {
-        "uk": "Mercedes–AMG B–Class Універсал",
-        "ru": "Mercedes–AMG B–Class Универсал"
+        "uk": "Mercedes–AMG B–Class Універсал фото",
+        "ru": "Mercedes–AMG B–Class Универсал фото"
       }
     }
   },
@@ -1122,8 +1122,8 @@
         "ru": "Mercedes–AMG B–Class Универсал"
       },
       "title": {
-        "uk": "Mercedes–AMG B–Class Універсал",
-        "ru": "Mercedes–AMG B–Class Универсал"
+        "uk": "Mercedes–AMG B–Class Універсал фото",
+        "ru": "Mercedes–AMG B–Class Универсал фото"
       }
     }
   },
@@ -1150,8 +1150,8 @@
         "ru": "AMG CLA Shooting Brake Универсал"
       },
       "title": {
-        "uk": "AMG CLA Shooting Brake Універсал",
-        "ru": "AMG CLA Shooting Brake Универсал"
+        "uk": "AMG CLA Shooting Brake Універсал фото",
+        "ru": "AMG CLA Shooting Brake Универсал фото"
       }
     }
   },
@@ -1178,8 +1178,8 @@
         "ru": "Mercedes–AMG B–Class Лимузин"
       },
       "title": {
-        "uk": "Mercedes–AMG B–Class Лімузин",
-        "ru": "Mercedes–AMG B–Class Лимузин"
+        "uk": "Mercedes–AMG B–Class Лімузин фото",
+        "ru": "Mercedes–AMG B–Class Лимузин фото"
       }
     }
   },
@@ -1206,8 +1206,8 @@
         "ru": "Mercedes–AMG C–Class Лимузин"
       },
       "title": {
-        "uk": "Mercedes–AMG C–Class Лімузин",
-        "ru": "Mercedes–AMG C–Class Лимузин"
+        "uk": "Mercedes–AMG C–Class Лімузин фото",
+        "ru": "Mercedes–AMG C–Class Лимузин фото"
       }
     }
   },
@@ -1238,8 +1238,8 @@
         "ru": "Mercedes–AMG E–Class Лимузин"
       },
       "title": {
-        "uk": "Mercedes–AMG E–Class Лімузин",
-        "ru": "Mercedes–AMG E–Class Лимузин"
+        "uk": "Mercedes–AMG E–Class Лімузин фото",
+        "ru": "Mercedes–AMG E–Class Лимузин фото"
       }
     }
   },
@@ -1266,8 +1266,8 @@
         "ru": "Mercedes–AMG S–Class Лимузин"
       },
       "title": {
-        "uk": "Mercedes–AMG S–Class Лімузин",
-        "ru": "Mercedes–AMG S–Class Лимузин"
+        "uk": "Mercedes–AMG S–Class Лімузин фото",
+        "ru": "Mercedes–AMG S–Class Лимузин фото"
       }
     }
   },
@@ -1294,8 +1294,8 @@
         "ru": "Mercedes–AMG C–Class Купе"
       },
       "title": {
-        "uk": "Mercedes–AMG C–Class Купе",
-        "ru": "Mercedes–AMG C–Class Купе"
+        "uk": "Mercedes–AMG C–Class Купе фото",
+        "ru": "Mercedes–AMG C–Class Купе фото"
       }
     }
   },
@@ -1322,8 +1322,8 @@
         "ru": "Mercedes–AMG E–Class Купе"
       },
       "title": {
-        "uk": "Mercedes–AMG E–Class Купе",
-        "ru": "Mercedes–AMG E–Class Купе"
+        "uk": "Mercedes–AMG E–Class Купе фото",
+        "ru": "Mercedes–AMG E–Class Купе фото"
       }
     }
   },
@@ -1350,8 +1350,8 @@
         "ru": "Mercedes–AMG S–Class Купе"
       },
       "title": {
-        "uk": "Mercedes–AMG S–Class Купе",
-        "ru": "Mercedes–AMG S–Class Купе"
+        "uk": "Mercedes–AMG S–Class Купе фото",
+        "ru": "Mercedes–AMG S–Class Купе фото"
       }
     }
   },
@@ -1378,8 +1378,8 @@
         "ru": "Mercedes–AMG CLA Купе"
       },
       "title": {
-        "uk": "Mercedes–AMG CLA Купе",
-        "ru": "Mercedes–AMG CLA Купе"
+        "uk": "Mercedes–AMG CLA Купе фото",
+        "ru": "Mercedes–AMG CLA Купе фото"
       }
     }
   },
@@ -1406,8 +1406,8 @@
         "ru": "Mercedes–AMG CLS Купе"
       },
       "title": {
-        "uk": "Mercedes–AMG CLS Купе",
-        "ru": "Mercedes–AMG CLS Купе"
+        "uk": "Mercedes–AMG CLS Купе фото",
+        "ru": "Mercedes–AMG CLS Купе фото"
       }
     }
   },
@@ -1418,7 +1418,7 @@
       "uk": "AMG GLA-Class",
       "ru": "AMG GLA-Class"
     },
-    "price": "0",
+    "price": "47 457,00",
     "labels": {
     },
     "url": {
@@ -1434,8 +1434,8 @@
         "ru": "Mercedes-AMG GLA-Class Внедорожники"
       },
       "title": {
-        "uk": "Mercedes-AMG GLA-Class Позашляховики",
-        "ru": "Mercedes-AMG GLA-Class Внедорожники"
+        "uk": "Mercedes-AMG GLA-Class Позашляховики фото",
+        "ru": "Mercedes-AMG GLA-Class Внедорожники фото"
       }
     }
   },
@@ -1462,8 +1462,8 @@
         "ru": "Mercedes-AMG GLB-Class Внедорожники"
       },
       "title": {
-        "uk": "Mercedes-AMG GLB-Class Позашляховики",
-        "ru": "Mercedes-AMG GLB-Class Внедорожники"
+        "uk": "Mercedes-AMG GLB-Class Позашляховики фото",
+        "ru": "Mercedes-AMG GLB-Class Внедорожники фото"
       }
     }
   },
@@ -1490,8 +1490,8 @@
         "ru": "Mercedes-AMG GLC-Class Внедорожники"
       },
       "title": {
-        "uk": "Mercedes-AMG GLC-Class Позашляховики",
-        "ru": "Mercedes-AMG GLC-Class Внедорожники"
+        "uk": "Mercedes-AMG GLC-Class Позашляховики фото",
+        "ru": "Mercedes-AMG GLC-Class Внедорожники фото"
       }
     }
   },
@@ -1518,8 +1518,8 @@
         "ru": "Mercedes-AMG GLE-Class Внедорожники"
       },
       "title": {
-        "uk": "Mercedes-AMG GLE-Class Позашляховики",
-        "ru": "Mercedes-AMG GLE-Class Внедорожники"
+        "uk": "Mercedes-AMG GLE-Class Позашляховики фото",
+        "ru": "Mercedes-AMG GLE-Class Внедорожники фото"
       }
     }
   },
@@ -1546,8 +1546,8 @@
         "ru": "Mercedes-AMG GLS-Class Внедорожники"
       },
       "title": {
-        "uk": "Mercedes-AMG GLS-Class Позашляховики",
-        "ru": "Mercedes-AMG GLS-Class Внедорожники"
+        "uk": "Mercedes-AMG GLS-Class Позашляховики фото",
+        "ru": "Mercedes-AMG GLS-Class Внедорожники фото"
       }
     }
   },
@@ -1574,8 +1574,8 @@
         "ru": "Mercedes-AMG G-Class Внедорожники"
       },
       "title": {
-        "uk": "Mercedes-AMG G-Class Позашляховики",
-        "ru": "Mercedes-AMG G-Class Внедорожники"
+        "uk": "Mercedes-AMG G-Class Позашляховики фото",
+        "ru": "Mercedes-AMG G-Class Внедорожники фото"
       }
     }
   },
@@ -1583,8 +1583,8 @@
     "group": ["amg"],
     "type": "suv",
     "title": {
-      "uk": "AMG GLC Купе",
-      "ru": "AMG GLC Купе"
+      "uk": "AMG GLC Купе фото",
+      "ru": "AMG GLC Купе фото"
     },
     "price": "65 858,00",
     "labels": {
@@ -1602,8 +1602,8 @@
         "ru": "Mercedes-AMG GLC Купе"
       },
       "title": {
-        "uk": "Mercedes-AMG GLC Купе",
-        "ru": "Mercedes-AMG GLC Купе"
+        "uk": "Mercedes-AMG GLC Купе фото",
+        "ru": "Mercedes-AMG GLC Купе фото"
       }
     }
   },
@@ -1630,8 +1630,8 @@
         "ru": "Mercedes-AMG GLE Купе"
       },
       "title": {
-        "uk": "Mercedes-AMG GLE Купе",
-        "ru": "Mercedes-AMG GLE Купе"
+        "uk": "Mercedes-AMG GLE Купе фото",
+        "ru": "Mercedes-AMG GLE Купе фото"
       }
     }
   },
@@ -1658,8 +1658,8 @@
         "ru": "Mercedes-AMG C-Class Кабриолет"
       },
       "title": {
-        "uk": "Mercedes-AMG C-Class Кабріолет",
-        "ru": "Mercedes-AMG C-Class Кабриолет"
+        "uk": "Mercedes-AMG C-Class Кабріолет фото",
+        "ru": "Mercedes-AMG C-Class Кабриолет фото"
       }
     }
   },
@@ -1686,8 +1686,8 @@
         "ru": "Mercedes-AMG E-Class Кабриолет"
       },
       "title": {
-        "uk": "Mercedes-AMG E-Class Кабріолет",
-        "ru": "Mercedes-AMG E-Class Кабриолет"
+        "uk": "Mercedes-AMG E-Class Кабріолет фото",
+        "ru": "Mercedes-AMG E-Class Кабриолет фото"
       }
     }
   },
@@ -1714,8 +1714,8 @@
         "ru": "Mercedes-AMG S-Class Кабриолет"
       },
       "title": {
-        "uk": "Mercedes-AMG S-Class Кабріолет",
-        "ru": "Mercedes-AMG S-Class Кабриолет"
+        "uk": "Mercedes-AMG S-Class Кабріолет фото",
+        "ru": "Mercedes-AMG S-Class Кабриолет фото"
       }
     }
   },
@@ -1742,8 +1742,8 @@
         "ru": "Mercedes-AMG GT Родстер"
       },
       "title": {
-        "uk": "Mercedes-AMG GT Родстер",
-        "ru": "Mercedes-AMG GT Родстер"
+        "uk": "Mercedes-AMG GT Родстер фото",
+        "ru": "Mercedes-AMG GT Родстер фото"
       }
     }
   }

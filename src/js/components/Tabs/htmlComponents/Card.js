@@ -1,7 +1,7 @@
 import { LANGUAGE } from '../constants'
 import { iconMore, iconCart } from '../icons'
 
-export default ({ title, url, image, price, labels }) => {
+export default ({ title, url, image, price, labels, reverseLinks }) => {
   const IMAGE_SRC_BASE = '//img.mercedes-benz-kiev.com/data/catalog'
 
   const buttons = {
@@ -39,6 +39,8 @@ export default ({ title, url, image, price, labels }) => {
   </picture>
   `
 
+  const setMainLink = () => (reverseLinks && url.auxiliary ? url.auxiliary : url.main)
+
   return ` 
   <div class="card">
     <div class="card__title">${title[LANGUAGE] || title}</div>
@@ -58,24 +60,24 @@ export default ({ title, url, image, price, labels }) => {
           : ''
       }
 
-      <a href="/${url.main}" class="card__static-image">
+      <a href="/${setMainLink()}" class="card__static-image">
         ${getPicture(image.front)}
       </a>
 
       <div class="card__slider flexslider">
         <ul class="slides">
           <li>
-            <a href="/${url.main}" class="">
+            <a href="/${setMainLink()}">
               ${getPicture(image.front)}
             </a>
           </li>
           <li>
-            <a href="/${url.main}" class="">
+            <a href="/${setMainLink()}">
               ${getPicture(image.side)}
             </a>
           </li>
           <li>
-            <a href="/${url.main}" class="">
+            <a href="/${setMainLink()}">
               ${getPicture(image.back)}
             </a>
           </li>

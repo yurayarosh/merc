@@ -79,7 +79,9 @@ export default class Tabs {
   }
 
   get currentButton() {
-    return this.buttons.filter(({ classList }) => classList.contains('tabs__tab--current'))[0]
+    return this.buttons.filter(({ classList }) =>
+      classList.contains('models-tabs__tab--current')
+    )[0]
   }
 
   get baseUrl() {
@@ -134,6 +136,10 @@ export default class Tabs {
     return !this.isLoaded && href.indexOf(QUERY_TYPE) !== -1
       ? getNameFromUrl()
       : getNameFromButton()
+  }
+
+  get reverseCardsLinks() {
+    return this.wrap.getAttribute('data-reverse-links') === 'true'
   }
 
   updateStore(state) {
