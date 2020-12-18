@@ -39,7 +39,14 @@ export default ({ title, url, image, price, labels, reverseLinks }) => {
   </picture>
   `
 
-  const setMainLink = () => (reverseLinks && url.auxiliary ? url.auxiliary : url.main)
+  const getMainLinkUrl = () => (reverseLinks && url.auxiliary ? url.auxiliary : url.main)
+
+  const getLinkUrl = linkUrl => {
+    if (LANGUAGE === 'uk') return `/${linkUrl}`
+    return `/${LANGUAGE}/${linkUrl}`
+  }
+
+  const mainUrl = (() => getLinkUrl(getMainLinkUrl()))()
 
   return ` 
   <div class="card">
@@ -60,24 +67,24 @@ export default ({ title, url, image, price, labels, reverseLinks }) => {
           : ''
       }
 
-      <a href="/${setMainLink()}" class="card__static-image">
+      <a href="${mainUrl}" class="card__static-image">
         ${getPicture(image.front)}
       </a>
 
       <div class="card__slider flexslider">
         <ul class="slides">
           <li>
-            <a href="/${setMainLink()}">
+            <a href="${mainUrl}">
               ${getPicture(image.front)}
             </a>
           </li>
           <li>
-            <a href="/${setMainLink()}">
+            <a href="${mainUrl}">
               ${getPicture(image.side)}
             </a>
           </li>
           <li>
-            <a href="/${setMainLink()}">
+            <a href="${mainUrl}">
               ${getPicture(image.back)}
             </a>
           </li>
@@ -85,22 +92,29 @@ export default ({ title, url, image, price, labels, reverseLinks }) => {
       </div>
     </div>
 
-    <div class="card__buttons">
-      ${
-        buttons[LANGUAGE] && buttons[LANGUAGE].length > 0
-          ? buttons[LANGUAGE].map(({ title: buttonTitle, url: buttonUrl }, i) =>
-              buttonUrl
-                ? `
-                  <a 
-                    class="card__button${i === 0 ? ' card__button--more' : ' card__button--buy'}" 
-                    href="/${buttonUrl}"
-                    >${i === 0 ? iconMore : iconCart}${buttonTitle}</a
-                  >`
-                : null
-            ).join('')
-          : ''
-      } 
-    </div>
+    ${
+      !reverseLinks
+        ? `
+          <div class="card__buttons">
+            ${
+              buttons[LANGUAGE] && buttons[LANGUAGE].length > 0
+                ? buttons[LANGUAGE].map(({ title: buttonTitle, url: buttonUrl }, i) =>
+                    buttonUrl
+                      ? `
+                        <a 
+                          class="card__button${
+                            i === 0 ? ' card__button--more' : ' card__button--buy'
+                          }" 
+                          href="${getLinkUrl(buttonUrl)}"
+                          >${i === 0 ? iconMore : iconCart}${buttonTitle}</a
+                        >`
+                      : null
+                  ).join('')
+                : ''
+            } 
+          </div>`
+        : ''
+    }
   </div>
   `
 }
